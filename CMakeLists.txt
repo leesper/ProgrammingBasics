@@ -5,3 +5,4 @@ project(ProgrammingBasics VERSION 0.1
                           LANGUAGES CXX)
 
 add_subdirectory(ch-1)
+add_subdirectory(ch-2)
