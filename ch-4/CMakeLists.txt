@@ -1,0 +1,5 @@
+add_executable(prime prime.cpp)
+add_executable(children children.cpp)
+add_executable(binary_search binary_search.cpp)
+add_executable(insert_sort insert_sort.cpp)
+add_executable(select_sort select_sort.cpp)
