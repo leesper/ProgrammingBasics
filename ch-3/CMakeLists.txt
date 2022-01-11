@@ -1,2 +1,6 @@
 add_executable(good_man good_man.cpp)
 add_executable(suspect suspect.cpp)
+add_executable(murder murder.cpp)
+add_executable(murder2 murder2.cpp)
+add_executable(triangle triangle.cpp)
+add_executable(year year.cpp)
