@@ -1,2 +1,5 @@
 add_executable(digital digital.cpp)
 add_executable(guess guess.cpp)
+add_executable(calc_area calc_area.cpp)
+add_executable(accelerated_speed accelerated_speed.cpp)
+add_executable(triangle_area triangle_area.cpp)
