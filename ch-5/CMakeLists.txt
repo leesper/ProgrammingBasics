@@ -1,2 +1,5 @@
 add_executable(fact fact.cpp)
 add_executable(recur_sorts recur_sorts.cpp)
+add_executable(allocate_books allocate_books.cpp)
+add_executable(calc_func calc_func.cpp)
+add_executable(func func.cpp)
