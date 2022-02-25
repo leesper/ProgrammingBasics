@@ -1,0 +1,5 @@
+add_executable(flower flower.cpp)
+add_executable(letter letter.cpp)
+add_executable(prime_interval prime.cpp)
+add_executable(matrix matrix.cpp)
+add_executable(dumpling dumpling.cpp)
