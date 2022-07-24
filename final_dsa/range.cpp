@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-int range(int *pInt, int n, int a, int i);
+int range(int *pInt, int n, int a, int b);
 
 int main() {
     int n, m;
