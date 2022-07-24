@@ -23,6 +23,8 @@ int main() {
         cin >> points[i];
     }
 
+    qsort(points, n, sizeof(int), comp);
+
     int a, b;
     for (int i = 0; i < m; i++) {
         cin >> a >> b;
@@ -39,7 +41,6 @@ int main() {
 }
 
 int range(int *pInt, int n, int a, int b) {
-    qsort(pInt, n, sizeof(int), comp);
 
     int *p1 = find_first_gte(pInt, 0, n-1, a);
     int *p2 = find_first_lte(pInt, 0, n-1, b);
