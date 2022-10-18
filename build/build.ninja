@@ -1,0 +1,1986 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: ProgrammingBasics
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/likejun/ProgrammingBasics/build/
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/likejun/ProgrammingBasics/build && /usr/local/Cellar/cmake/3.23.2/bin/ccmake -S/Users/likejun/ProgrammingBasics -B/Users/likejun/ProgrammingBasics/build
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/likejun/ProgrammingBasics/build && /usr/local/Cellar/cmake/3.23.2/bin/cmake --regenerate-during-build -S/Users/likejun/ProgrammingBasics -B/Users/likejun/ProgrammingBasics/build
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/likejun/ProgrammingBasics/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target buying
+
+
+#############################################
+# Order-only phony target for buying
+
+build cmake_object_order_depends_target_buying: phony || ch-1/CMakeFiles/buying.dir
+
+build ch-1/CMakeFiles/buying.dir/buying.cpp.o: CXX_COMPILER__buying_Debug /Users/likejun/ProgrammingBasics/ch-1/buying.cpp || cmake_object_order_depends_target_buying
+  DEP_FILE = ch-1/CMakeFiles/buying.dir/buying.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-1/CMakeFiles/buying.dir
+  OBJECT_FILE_DIR = ch-1/CMakeFiles/buying.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target buying
+
+
+#############################################
+# Link the executable ch-1/buying
+
+build ch-1/buying: CXX_EXECUTABLE_LINKER__buying_Debug ch-1/CMakeFiles/buying.dir/buying.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-1/CMakeFiles/buying.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch-1/buying
+  TARGET_PDB = buying.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target hello_world
+
+
+#############################################
+# Order-only phony target for hello_world
+
+build cmake_object_order_depends_target_hello_world: phony || ch-1/CMakeFiles/hello_world.dir
+
+build ch-1/CMakeFiles/hello_world.dir/hello_world.cpp.o: CXX_COMPILER__hello_world_Debug /Users/likejun/ProgrammingBasics/ch-1/hello_world.cpp || cmake_object_order_depends_target_hello_world
+  DEP_FILE = ch-1/CMakeFiles/hello_world.dir/hello_world.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-1/CMakeFiles/hello_world.dir
+  OBJECT_FILE_DIR = ch-1/CMakeFiles/hello_world.dir
+
+build ch-1/CMakeFiles/hello_world.dir/hello.cpp.o: CXX_COMPILER__hello_world_Debug /Users/likejun/ProgrammingBasics/ch-1/hello.cpp || cmake_object_order_depends_target_hello_world
+  DEP_FILE = ch-1/CMakeFiles/hello_world.dir/hello.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-1/CMakeFiles/hello_world.dir
+  OBJECT_FILE_DIR = ch-1/CMakeFiles/hello_world.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target hello_world
+
+
+#############################################
+# Link the executable ch-1/hello_world
+
+build ch-1/hello_world: CXX_EXECUTABLE_LINKER__hello_world_Debug ch-1/CMakeFiles/hello_world.dir/hello_world.cpp.o ch-1/CMakeFiles/hello_world.dir/hello.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-1/CMakeFiles/hello_world.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch-1/hello_world
+  TARGET_PDB = hello_world.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target calc_one
+
+
+#############################################
+# Order-only phony target for calc_one
+
+build cmake_object_order_depends_target_calc_one: phony || ch-1/CMakeFiles/calc_one.dir
+
+build ch-1/CMakeFiles/calc_one.dir/calc_one.cpp.o: CXX_COMPILER__calc_one_Debug /Users/likejun/ProgrammingBasics/ch-1/calc_one.cpp || cmake_object_order_depends_target_calc_one
+  DEP_FILE = ch-1/CMakeFiles/calc_one.dir/calc_one.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-1/CMakeFiles/calc_one.dir
+  OBJECT_FILE_DIR = ch-1/CMakeFiles/calc_one.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target calc_one
+
+
+#############################################
+# Link the executable ch-1/calc_one
+
+build ch-1/calc_one: CXX_EXECUTABLE_LINKER__calc_one_Debug ch-1/CMakeFiles/calc_one.dir/calc_one.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-1/CMakeFiles/calc_one.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch-1/calc_one
+  TARGET_PDB = calc_one.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target calc_y
+
+
+#############################################
+# Order-only phony target for calc_y
+
+build cmake_object_order_depends_target_calc_y: phony || ch-1/CMakeFiles/calc_y.dir
+
+build ch-1/CMakeFiles/calc_y.dir/calc_y.cpp.o: CXX_COMPILER__calc_y_Debug /Users/likejun/ProgrammingBasics/ch-1/calc_y.cpp || cmake_object_order_depends_target_calc_y
+  DEP_FILE = ch-1/CMakeFiles/calc_y.dir/calc_y.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-1/CMakeFiles/calc_y.dir
+  OBJECT_FILE_DIR = ch-1/CMakeFiles/calc_y.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target calc_y
+
+
+#############################################
+# Link the executable ch-1/calc_y
+
+build ch-1/calc_y: CXX_EXECUTABLE_LINKER__calc_y_Debug ch-1/CMakeFiles/calc_y.dir/calc_y.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-1/CMakeFiles/calc_y.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch-1/calc_y
+  TARGET_PDB = calc_y.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build ch-1/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/likejun/ProgrammingBasics/build/ch-1 && /usr/local/Cellar/cmake/3.23.2/bin/ccmake -S/Users/likejun/ProgrammingBasics -B/Users/likejun/ProgrammingBasics/build
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build ch-1/edit_cache: phony ch-1/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ch-1/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/likejun/ProgrammingBasics/build/ch-1 && /usr/local/Cellar/cmake/3.23.2/bin/cmake --regenerate-during-build -S/Users/likejun/ProgrammingBasics -B/Users/likejun/ProgrammingBasics/build
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ch-1/rebuild_cache: phony ch-1/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/likejun/ProgrammingBasics/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target digital
+
+
+#############################################
+# Order-only phony target for digital
+
+build cmake_object_order_depends_target_digital: phony || ch-2/CMakeFiles/digital.dir
+
+build ch-2/CMakeFiles/digital.dir/digital.cpp.o: CXX_COMPILER__digital_Debug /Users/likejun/ProgrammingBasics/ch-2/digital.cpp || cmake_object_order_depends_target_digital
+  DEP_FILE = ch-2/CMakeFiles/digital.dir/digital.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-2/CMakeFiles/digital.dir
+  OBJECT_FILE_DIR = ch-2/CMakeFiles/digital.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target digital
+
+
+#############################################
+# Link the executable ch-2/digital
+
+build ch-2/digital: CXX_EXECUTABLE_LINKER__digital_Debug ch-2/CMakeFiles/digital.dir/digital.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-2/CMakeFiles/digital.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch-2/digital
+  TARGET_PDB = digital.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target guess
+
+
+#############################################
+# Order-only phony target for guess
+
+build cmake_object_order_depends_target_guess: phony || ch-2/CMakeFiles/guess.dir
+
+build ch-2/CMakeFiles/guess.dir/guess.cpp.o: CXX_COMPILER__guess_Debug /Users/likejun/ProgrammingBasics/ch-2/guess.cpp || cmake_object_order_depends_target_guess
+  DEP_FILE = ch-2/CMakeFiles/guess.dir/guess.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-2/CMakeFiles/guess.dir
+  OBJECT_FILE_DIR = ch-2/CMakeFiles/guess.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target guess
+
+
+#############################################
+# Link the executable ch-2/guess
+
+build ch-2/guess: CXX_EXECUTABLE_LINKER__guess_Debug ch-2/CMakeFiles/guess.dir/guess.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-2/CMakeFiles/guess.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch-2/guess
+  TARGET_PDB = guess.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target calc_area
+
+
+#############################################
+# Order-only phony target for calc_area
+
+build cmake_object_order_depends_target_calc_area: phony || ch-2/CMakeFiles/calc_area.dir
+
+build ch-2/CMakeFiles/calc_area.dir/calc_area.cpp.o: CXX_COMPILER__calc_area_Debug /Users/likejun/ProgrammingBasics/ch-2/calc_area.cpp || cmake_object_order_depends_target_calc_area
+  DEP_FILE = ch-2/CMakeFiles/calc_area.dir/calc_area.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-2/CMakeFiles/calc_area.dir
+  OBJECT_FILE_DIR = ch-2/CMakeFiles/calc_area.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target calc_area
+
+
+#############################################
+# Link the executable ch-2/calc_area
+
+build ch-2/calc_area: CXX_EXECUTABLE_LINKER__calc_area_Debug ch-2/CMakeFiles/calc_area.dir/calc_area.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-2/CMakeFiles/calc_area.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch-2/calc_area
+  TARGET_PDB = calc_area.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target accelerated_speed
+
+
+#############################################
+# Order-only phony target for accelerated_speed
+
+build cmake_object_order_depends_target_accelerated_speed: phony || ch-2/CMakeFiles/accelerated_speed.dir
+
+build ch-2/CMakeFiles/accelerated_speed.dir/accelerated_speed.cpp.o: CXX_COMPILER__accelerated_speed_Debug /Users/likejun/ProgrammingBasics/ch-2/accelerated_speed.cpp || cmake_object_order_depends_target_accelerated_speed
+  DEP_FILE = ch-2/CMakeFiles/accelerated_speed.dir/accelerated_speed.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-2/CMakeFiles/accelerated_speed.dir
+  OBJECT_FILE_DIR = ch-2/CMakeFiles/accelerated_speed.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target accelerated_speed
+
+
+#############################################
+# Link the executable ch-2/accelerated_speed
+
+build ch-2/accelerated_speed: CXX_EXECUTABLE_LINKER__accelerated_speed_Debug ch-2/CMakeFiles/accelerated_speed.dir/accelerated_speed.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-2/CMakeFiles/accelerated_speed.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch-2/accelerated_speed
+  TARGET_PDB = accelerated_speed.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target triangle_area
+
+
+#############################################
+# Order-only phony target for triangle_area
+
+build cmake_object_order_depends_target_triangle_area: phony || ch-2/CMakeFiles/triangle_area.dir
+
+build ch-2/CMakeFiles/triangle_area.dir/triangle_area.cpp.o: CXX_COMPILER__triangle_area_Debug /Users/likejun/ProgrammingBasics/ch-2/triangle_area.cpp || cmake_object_order_depends_target_triangle_area
+  DEP_FILE = ch-2/CMakeFiles/triangle_area.dir/triangle_area.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-2/CMakeFiles/triangle_area.dir
+  OBJECT_FILE_DIR = ch-2/CMakeFiles/triangle_area.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target triangle_area
+
+
+#############################################
+# Link the executable ch-2/triangle_area
+
+build ch-2/triangle_area: CXX_EXECUTABLE_LINKER__triangle_area_Debug ch-2/CMakeFiles/triangle_area.dir/triangle_area.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-2/CMakeFiles/triangle_area.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch-2/triangle_area
+  TARGET_PDB = triangle_area.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build ch-2/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/likejun/ProgrammingBasics/build/ch-2 && /usr/local/Cellar/cmake/3.23.2/bin/ccmake -S/Users/likejun/ProgrammingBasics -B/Users/likejun/ProgrammingBasics/build
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build ch-2/edit_cache: phony ch-2/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ch-2/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/likejun/ProgrammingBasics/build/ch-2 && /usr/local/Cellar/cmake/3.23.2/bin/cmake --regenerate-during-build -S/Users/likejun/ProgrammingBasics -B/Users/likejun/ProgrammingBasics/build
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ch-2/rebuild_cache: phony ch-2/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/likejun/ProgrammingBasics/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target good_man
+
+
+#############################################
+# Order-only phony target for good_man
+
+build cmake_object_order_depends_target_good_man: phony || ch-3/CMakeFiles/good_man.dir
+
+build ch-3/CMakeFiles/good_man.dir/good_man.cpp.o: CXX_COMPILER__good_man_Debug /Users/likejun/ProgrammingBasics/ch-3/good_man.cpp || cmake_object_order_depends_target_good_man
+  DEP_FILE = ch-3/CMakeFiles/good_man.dir/good_man.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-3/CMakeFiles/good_man.dir
+  OBJECT_FILE_DIR = ch-3/CMakeFiles/good_man.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target good_man
+
+
+#############################################
+# Link the executable ch-3/good_man
+
+build ch-3/good_man: CXX_EXECUTABLE_LINKER__good_man_Debug ch-3/CMakeFiles/good_man.dir/good_man.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-3/CMakeFiles/good_man.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch-3/good_man
+  TARGET_PDB = good_man.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target suspect
+
+
+#############################################
+# Order-only phony target for suspect
+
+build cmake_object_order_depends_target_suspect: phony || ch-3/CMakeFiles/suspect.dir
+
+build ch-3/CMakeFiles/suspect.dir/suspect.cpp.o: CXX_COMPILER__suspect_Debug /Users/likejun/ProgrammingBasics/ch-3/suspect.cpp || cmake_object_order_depends_target_suspect
+  DEP_FILE = ch-3/CMakeFiles/suspect.dir/suspect.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-3/CMakeFiles/suspect.dir
+  OBJECT_FILE_DIR = ch-3/CMakeFiles/suspect.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target suspect
+
+
+#############################################
+# Link the executable ch-3/suspect
+
+build ch-3/suspect: CXX_EXECUTABLE_LINKER__suspect_Debug ch-3/CMakeFiles/suspect.dir/suspect.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-3/CMakeFiles/suspect.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch-3/suspect
+  TARGET_PDB = suspect.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target murder
+
+
+#############################################
+# Order-only phony target for murder
+
+build cmake_object_order_depends_target_murder: phony || ch-3/CMakeFiles/murder.dir
+
+build ch-3/CMakeFiles/murder.dir/murder.cpp.o: CXX_COMPILER__murder_Debug /Users/likejun/ProgrammingBasics/ch-3/murder.cpp || cmake_object_order_depends_target_murder
+  DEP_FILE = ch-3/CMakeFiles/murder.dir/murder.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-3/CMakeFiles/murder.dir
+  OBJECT_FILE_DIR = ch-3/CMakeFiles/murder.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target murder
+
+
+#############################################
+# Link the executable ch-3/murder
+
+build ch-3/murder: CXX_EXECUTABLE_LINKER__murder_Debug ch-3/CMakeFiles/murder.dir/murder.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-3/CMakeFiles/murder.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch-3/murder
+  TARGET_PDB = murder.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target murder2
+
+
+#############################################
+# Order-only phony target for murder2
+
+build cmake_object_order_depends_target_murder2: phony || ch-3/CMakeFiles/murder2.dir
+
+build ch-3/CMakeFiles/murder2.dir/murder2.cpp.o: CXX_COMPILER__murder2_Debug /Users/likejun/ProgrammingBasics/ch-3/murder2.cpp || cmake_object_order_depends_target_murder2
+  DEP_FILE = ch-3/CMakeFiles/murder2.dir/murder2.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-3/CMakeFiles/murder2.dir
+  OBJECT_FILE_DIR = ch-3/CMakeFiles/murder2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target murder2
+
+
+#############################################
+# Link the executable ch-3/murder2
+
+build ch-3/murder2: CXX_EXECUTABLE_LINKER__murder2_Debug ch-3/CMakeFiles/murder2.dir/murder2.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-3/CMakeFiles/murder2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch-3/murder2
+  TARGET_PDB = murder2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target triangle
+
+
+#############################################
+# Order-only phony target for triangle
+
+build cmake_object_order_depends_target_triangle: phony || ch-3/CMakeFiles/triangle.dir
+
+build ch-3/CMakeFiles/triangle.dir/triangle.cpp.o: CXX_COMPILER__triangle_Debug /Users/likejun/ProgrammingBasics/ch-3/triangle.cpp || cmake_object_order_depends_target_triangle
+  DEP_FILE = ch-3/CMakeFiles/triangle.dir/triangle.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-3/CMakeFiles/triangle.dir
+  OBJECT_FILE_DIR = ch-3/CMakeFiles/triangle.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target triangle
+
+
+#############################################
+# Link the executable ch-3/triangle
+
+build ch-3/triangle: CXX_EXECUTABLE_LINKER__triangle_Debug ch-3/CMakeFiles/triangle.dir/triangle.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-3/CMakeFiles/triangle.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch-3/triangle
+  TARGET_PDB = triangle.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target year
+
+
+#############################################
+# Order-only phony target for year
+
+build cmake_object_order_depends_target_year: phony || ch-3/CMakeFiles/year.dir
+
+build ch-3/CMakeFiles/year.dir/year.cpp.o: CXX_COMPILER__year_Debug /Users/likejun/ProgrammingBasics/ch-3/year.cpp || cmake_object_order_depends_target_year
+  DEP_FILE = ch-3/CMakeFiles/year.dir/year.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-3/CMakeFiles/year.dir
+  OBJECT_FILE_DIR = ch-3/CMakeFiles/year.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target year
+
+
+#############################################
+# Link the executable ch-3/year
+
+build ch-3/year: CXX_EXECUTABLE_LINKER__year_Debug ch-3/CMakeFiles/year.dir/year.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-3/CMakeFiles/year.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch-3/year
+  TARGET_PDB = year.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build ch-3/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/likejun/ProgrammingBasics/build/ch-3 && /usr/local/Cellar/cmake/3.23.2/bin/ccmake -S/Users/likejun/ProgrammingBasics -B/Users/likejun/ProgrammingBasics/build
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build ch-3/edit_cache: phony ch-3/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ch-3/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/likejun/ProgrammingBasics/build/ch-3 && /usr/local/Cellar/cmake/3.23.2/bin/cmake --regenerate-during-build -S/Users/likejun/ProgrammingBasics -B/Users/likejun/ProgrammingBasics/build
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ch-3/rebuild_cache: phony ch-3/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/likejun/ProgrammingBasics/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target prime
+
+
+#############################################
+# Order-only phony target for prime
+
+build cmake_object_order_depends_target_prime: phony || ch-4/CMakeFiles/prime.dir
+
+build ch-4/CMakeFiles/prime.dir/prime.cpp.o: CXX_COMPILER__prime_Debug /Users/likejun/ProgrammingBasics/ch-4/prime.cpp || cmake_object_order_depends_target_prime
+  DEP_FILE = ch-4/CMakeFiles/prime.dir/prime.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-4/CMakeFiles/prime.dir
+  OBJECT_FILE_DIR = ch-4/CMakeFiles/prime.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target prime
+
+
+#############################################
+# Link the executable ch-4/prime
+
+build ch-4/prime: CXX_EXECUTABLE_LINKER__prime_Debug ch-4/CMakeFiles/prime.dir/prime.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-4/CMakeFiles/prime.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch-4/prime
+  TARGET_PDB = prime.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target children
+
+
+#############################################
+# Order-only phony target for children
+
+build cmake_object_order_depends_target_children: phony || ch-4/CMakeFiles/children.dir
+
+build ch-4/CMakeFiles/children.dir/children.cpp.o: CXX_COMPILER__children_Debug /Users/likejun/ProgrammingBasics/ch-4/children.cpp || cmake_object_order_depends_target_children
+  DEP_FILE = ch-4/CMakeFiles/children.dir/children.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-4/CMakeFiles/children.dir
+  OBJECT_FILE_DIR = ch-4/CMakeFiles/children.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target children
+
+
+#############################################
+# Link the executable ch-4/children
+
+build ch-4/children: CXX_EXECUTABLE_LINKER__children_Debug ch-4/CMakeFiles/children.dir/children.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-4/CMakeFiles/children.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch-4/children
+  TARGET_PDB = children.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target binary_search
+
+
+#############################################
+# Order-only phony target for binary_search
+
+build cmake_object_order_depends_target_binary_search: phony || ch-4/CMakeFiles/binary_search.dir
+
+build ch-4/CMakeFiles/binary_search.dir/binary_search.cpp.o: CXX_COMPILER__binary_search_Debug /Users/likejun/ProgrammingBasics/ch-4/binary_search.cpp || cmake_object_order_depends_target_binary_search
+  DEP_FILE = ch-4/CMakeFiles/binary_search.dir/binary_search.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-4/CMakeFiles/binary_search.dir
+  OBJECT_FILE_DIR = ch-4/CMakeFiles/binary_search.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target binary_search
+
+
+#############################################
+# Link the executable ch-4/binary_search
+
+build ch-4/binary_search: CXX_EXECUTABLE_LINKER__binary_search_Debug ch-4/CMakeFiles/binary_search.dir/binary_search.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-4/CMakeFiles/binary_search.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch-4/binary_search
+  TARGET_PDB = binary_search.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target insert_sort
+
+
+#############################################
+# Order-only phony target for insert_sort
+
+build cmake_object_order_depends_target_insert_sort: phony || ch-4/CMakeFiles/insert_sort.dir
+
+build ch-4/CMakeFiles/insert_sort.dir/insert_sort.cpp.o: CXX_COMPILER__insert_sort_Debug /Users/likejun/ProgrammingBasics/ch-4/insert_sort.cpp || cmake_object_order_depends_target_insert_sort
+  DEP_FILE = ch-4/CMakeFiles/insert_sort.dir/insert_sort.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-4/CMakeFiles/insert_sort.dir
+  OBJECT_FILE_DIR = ch-4/CMakeFiles/insert_sort.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target insert_sort
+
+
+#############################################
+# Link the executable ch-4/insert_sort
+
+build ch-4/insert_sort: CXX_EXECUTABLE_LINKER__insert_sort_Debug ch-4/CMakeFiles/insert_sort.dir/insert_sort.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-4/CMakeFiles/insert_sort.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch-4/insert_sort
+  TARGET_PDB = insert_sort.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target select_sort
+
+
+#############################################
+# Order-only phony target for select_sort
+
+build cmake_object_order_depends_target_select_sort: phony || ch-4/CMakeFiles/select_sort.dir
+
+build ch-4/CMakeFiles/select_sort.dir/select_sort.cpp.o: CXX_COMPILER__select_sort_Debug /Users/likejun/ProgrammingBasics/ch-4/select_sort.cpp || cmake_object_order_depends_target_select_sort
+  DEP_FILE = ch-4/CMakeFiles/select_sort.dir/select_sort.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-4/CMakeFiles/select_sort.dir
+  OBJECT_FILE_DIR = ch-4/CMakeFiles/select_sort.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target select_sort
+
+
+#############################################
+# Link the executable ch-4/select_sort
+
+build ch-4/select_sort: CXX_EXECUTABLE_LINKER__select_sort_Debug ch-4/CMakeFiles/select_sort.dir/select_sort.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-4/CMakeFiles/select_sort.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch-4/select_sort
+  TARGET_PDB = select_sort.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target joseph
+
+
+#############################################
+# Order-only phony target for joseph
+
+build cmake_object_order_depends_target_joseph: phony || ch-4/CMakeFiles/joseph.dir
+
+build ch-4/CMakeFiles/joseph.dir/joseph.cpp.o: CXX_COMPILER__joseph_Debug /Users/likejun/ProgrammingBasics/ch-4/joseph.cpp || cmake_object_order_depends_target_joseph
+  DEP_FILE = ch-4/CMakeFiles/joseph.dir/joseph.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-4/CMakeFiles/joseph.dir
+  OBJECT_FILE_DIR = ch-4/CMakeFiles/joseph.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target joseph
+
+
+#############################################
+# Link the executable ch-4/joseph
+
+build ch-4/joseph: CXX_EXECUTABLE_LINKER__joseph_Debug ch-4/CMakeFiles/joseph.dir/joseph.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-4/CMakeFiles/joseph.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch-4/joseph
+  TARGET_PDB = joseph.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target max2
+
+
+#############################################
+# Order-only phony target for max2
+
+build cmake_object_order_depends_target_max2: phony || ch-4/CMakeFiles/max2.dir
+
+build ch-4/CMakeFiles/max2.dir/max2.cpp.o: CXX_COMPILER__max2_Debug /Users/likejun/ProgrammingBasics/ch-4/max2.cpp || cmake_object_order_depends_target_max2
+  DEP_FILE = ch-4/CMakeFiles/max2.dir/max2.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-4/CMakeFiles/max2.dir
+  OBJECT_FILE_DIR = ch-4/CMakeFiles/max2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target max2
+
+
+#############################################
+# Link the executable ch-4/max2
+
+build ch-4/max2: CXX_EXECUTABLE_LINKER__max2_Debug ch-4/CMakeFiles/max2.dir/max2.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-4/CMakeFiles/max2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch-4/max2
+  TARGET_PDB = max2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target prime_factor
+
+
+#############################################
+# Order-only phony target for prime_factor
+
+build cmake_object_order_depends_target_prime_factor: phony || ch-4/CMakeFiles/prime_factor.dir
+
+build ch-4/CMakeFiles/prime_factor.dir/prime_factor.cpp.o: CXX_COMPILER__prime_factor_Debug /Users/likejun/ProgrammingBasics/ch-4/prime_factor.cpp || cmake_object_order_depends_target_prime_factor
+  DEP_FILE = ch-4/CMakeFiles/prime_factor.dir/prime_factor.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-4/CMakeFiles/prime_factor.dir
+  OBJECT_FILE_DIR = ch-4/CMakeFiles/prime_factor.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target prime_factor
+
+
+#############################################
+# Link the executable ch-4/prime_factor
+
+build ch-4/prime_factor: CXX_EXECUTABLE_LINKER__prime_factor_Debug ch-4/CMakeFiles/prime_factor.dir/prime_factor.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-4/CMakeFiles/prime_factor.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch-4/prime_factor
+  TARGET_PDB = prime_factor.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target password
+
+
+#############################################
+# Order-only phony target for password
+
+build cmake_object_order_depends_target_password: phony || ch-4/CMakeFiles/password.dir
+
+build ch-4/CMakeFiles/password.dir/password.cpp.o: CXX_COMPILER__password_Debug /Users/likejun/ProgrammingBasics/ch-4/password.cpp || cmake_object_order_depends_target_password
+  DEP_FILE = ch-4/CMakeFiles/password.dir/password.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-4/CMakeFiles/password.dir
+  OBJECT_FILE_DIR = ch-4/CMakeFiles/password.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target password
+
+
+#############################################
+# Link the executable ch-4/password
+
+build ch-4/password: CXX_EXECUTABLE_LINKER__password_Debug ch-4/CMakeFiles/password.dir/password.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-4/CMakeFiles/password.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch-4/password
+  TARGET_PDB = password.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build ch-4/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/likejun/ProgrammingBasics/build/ch-4 && /usr/local/Cellar/cmake/3.23.2/bin/ccmake -S/Users/likejun/ProgrammingBasics -B/Users/likejun/ProgrammingBasics/build
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build ch-4/edit_cache: phony ch-4/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ch-4/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/likejun/ProgrammingBasics/build/ch-4 && /usr/local/Cellar/cmake/3.23.2/bin/cmake --regenerate-during-build -S/Users/likejun/ProgrammingBasics -B/Users/likejun/ProgrammingBasics/build
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ch-4/rebuild_cache: phony ch-4/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/likejun/ProgrammingBasics/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target fact
+
+
+#############################################
+# Order-only phony target for fact
+
+build cmake_object_order_depends_target_fact: phony || ch-5/CMakeFiles/fact.dir
+
+build ch-5/CMakeFiles/fact.dir/fact.cpp.o: CXX_COMPILER__fact_Debug /Users/likejun/ProgrammingBasics/ch-5/fact.cpp || cmake_object_order_depends_target_fact
+  DEP_FILE = ch-5/CMakeFiles/fact.dir/fact.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-5/CMakeFiles/fact.dir
+  OBJECT_FILE_DIR = ch-5/CMakeFiles/fact.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target fact
+
+
+#############################################
+# Link the executable ch-5/fact
+
+build ch-5/fact: CXX_EXECUTABLE_LINKER__fact_Debug ch-5/CMakeFiles/fact.dir/fact.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-5/CMakeFiles/fact.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch-5/fact
+  TARGET_PDB = fact.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target recur_sorts
+
+
+#############################################
+# Order-only phony target for recur_sorts
+
+build cmake_object_order_depends_target_recur_sorts: phony || ch-5/CMakeFiles/recur_sorts.dir
+
+build ch-5/CMakeFiles/recur_sorts.dir/recur_sorts.cpp.o: CXX_COMPILER__recur_sorts_Debug /Users/likejun/ProgrammingBasics/ch-5/recur_sorts.cpp || cmake_object_order_depends_target_recur_sorts
+  DEP_FILE = ch-5/CMakeFiles/recur_sorts.dir/recur_sorts.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-5/CMakeFiles/recur_sorts.dir
+  OBJECT_FILE_DIR = ch-5/CMakeFiles/recur_sorts.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target recur_sorts
+
+
+#############################################
+# Link the executable ch-5/recur_sorts
+
+build ch-5/recur_sorts: CXX_EXECUTABLE_LINKER__recur_sorts_Debug ch-5/CMakeFiles/recur_sorts.dir/recur_sorts.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-5/CMakeFiles/recur_sorts.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch-5/recur_sorts
+  TARGET_PDB = recur_sorts.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target allocate_books
+
+
+#############################################
+# Order-only phony target for allocate_books
+
+build cmake_object_order_depends_target_allocate_books: phony || ch-5/CMakeFiles/allocate_books.dir
+
+build ch-5/CMakeFiles/allocate_books.dir/allocate_books.cpp.o: CXX_COMPILER__allocate_books_Debug /Users/likejun/ProgrammingBasics/ch-5/allocate_books.cpp || cmake_object_order_depends_target_allocate_books
+  DEP_FILE = ch-5/CMakeFiles/allocate_books.dir/allocate_books.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-5/CMakeFiles/allocate_books.dir
+  OBJECT_FILE_DIR = ch-5/CMakeFiles/allocate_books.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target allocate_books
+
+
+#############################################
+# Link the executable ch-5/allocate_books
+
+build ch-5/allocate_books: CXX_EXECUTABLE_LINKER__allocate_books_Debug ch-5/CMakeFiles/allocate_books.dir/allocate_books.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-5/CMakeFiles/allocate_books.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch-5/allocate_books
+  TARGET_PDB = allocate_books.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target calc_func
+
+
+#############################################
+# Order-only phony target for calc_func
+
+build cmake_object_order_depends_target_calc_func: phony || ch-5/CMakeFiles/calc_func.dir
+
+build ch-5/CMakeFiles/calc_func.dir/calc_func.cpp.o: CXX_COMPILER__calc_func_Debug /Users/likejun/ProgrammingBasics/ch-5/calc_func.cpp || cmake_object_order_depends_target_calc_func
+  DEP_FILE = ch-5/CMakeFiles/calc_func.dir/calc_func.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-5/CMakeFiles/calc_func.dir
+  OBJECT_FILE_DIR = ch-5/CMakeFiles/calc_func.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target calc_func
+
+
+#############################################
+# Link the executable ch-5/calc_func
+
+build ch-5/calc_func: CXX_EXECUTABLE_LINKER__calc_func_Debug ch-5/CMakeFiles/calc_func.dir/calc_func.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-5/CMakeFiles/calc_func.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch-5/calc_func
+  TARGET_PDB = calc_func.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target func
+
+
+#############################################
+# Order-only phony target for func
+
+build cmake_object_order_depends_target_func: phony || ch-5/CMakeFiles/func.dir
+
+build ch-5/CMakeFiles/func.dir/func.cpp.o: CXX_COMPILER__func_Debug /Users/likejun/ProgrammingBasics/ch-5/func.cpp || cmake_object_order_depends_target_func
+  DEP_FILE = ch-5/CMakeFiles/func.dir/func.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-5/CMakeFiles/func.dir
+  OBJECT_FILE_DIR = ch-5/CMakeFiles/func.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target func
+
+
+#############################################
+# Link the executable ch-5/func
+
+build ch-5/func: CXX_EXECUTABLE_LINKER__func_Debug ch-5/CMakeFiles/func.dir/func.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-5/CMakeFiles/func.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch-5/func
+  TARGET_PDB = func.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build ch-5/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/likejun/ProgrammingBasics/build/ch-5 && /usr/local/Cellar/cmake/3.23.2/bin/ccmake -S/Users/likejun/ProgrammingBasics -B/Users/likejun/ProgrammingBasics/build
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build ch-5/edit_cache: phony ch-5/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ch-5/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/likejun/ProgrammingBasics/build/ch-5 && /usr/local/Cellar/cmake/3.23.2/bin/cmake --regenerate-during-build -S/Users/likejun/ProgrammingBasics -B/Users/likejun/ProgrammingBasics/build
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ch-5/rebuild_cache: phony ch-5/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/likejun/ProgrammingBasics/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target downstairs
+
+
+#############################################
+# Order-only phony target for downstairs
+
+build cmake_object_order_depends_target_downstairs: phony || ch-6/CMakeFiles/downstairs.dir
+
+build ch-6/CMakeFiles/downstairs.dir/downstairs.cpp.o: CXX_COMPILER__downstairs_Debug /Users/likejun/ProgrammingBasics/ch-6/downstairs.cpp || cmake_object_order_depends_target_downstairs
+  DEP_FILE = ch-6/CMakeFiles/downstairs.dir/downstairs.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-6/CMakeFiles/downstairs.dir
+  OBJECT_FILE_DIR = ch-6/CMakeFiles/downstairs.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target downstairs
+
+
+#############################################
+# Link the executable ch-6/downstairs
+
+build ch-6/downstairs: CXX_EXECUTABLE_LINKER__downstairs_Debug ch-6/CMakeFiles/downstairs.dir/downstairs.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-6/CMakeFiles/downstairs.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch-6/downstairs
+  TARGET_PDB = downstairs.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target monkey
+
+
+#############################################
+# Order-only phony target for monkey
+
+build cmake_object_order_depends_target_monkey: phony || ch-6/CMakeFiles/monkey.dir
+
+build ch-6/CMakeFiles/monkey.dir/monkey.cpp.o: CXX_COMPILER__monkey_Debug /Users/likejun/ProgrammingBasics/ch-6/monkey.cpp || cmake_object_order_depends_target_monkey
+  DEP_FILE = ch-6/CMakeFiles/monkey.dir/monkey.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-6/CMakeFiles/monkey.dir
+  OBJECT_FILE_DIR = ch-6/CMakeFiles/monkey.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target monkey
+
+
+#############################################
+# Link the executable ch-6/monkey
+
+build ch-6/monkey: CXX_EXECUTABLE_LINKER__monkey_Debug ch-6/CMakeFiles/monkey.dir/monkey.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-6/CMakeFiles/monkey.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch-6/monkey
+  TARGET_PDB = monkey.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target fibo
+
+
+#############################################
+# Order-only phony target for fibo
+
+build cmake_object_order_depends_target_fibo: phony || ch-6/CMakeFiles/fibo.dir
+
+build ch-6/CMakeFiles/fibo.dir/fibo.cpp.o: CXX_COMPILER__fibo_Debug /Users/likejun/ProgrammingBasics/ch-6/fibo.cpp || cmake_object_order_depends_target_fibo
+  DEP_FILE = ch-6/CMakeFiles/fibo.dir/fibo.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-6/CMakeFiles/fibo.dir
+  OBJECT_FILE_DIR = ch-6/CMakeFiles/fibo.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target fibo
+
+
+#############################################
+# Link the executable ch-6/fibo
+
+build ch-6/fibo: CXX_EXECUTABLE_LINKER__fibo_Debug ch-6/CMakeFiles/fibo.dir/fibo.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-6/CMakeFiles/fibo.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch-6/fibo
+  TARGET_PDB = fibo.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build ch-6/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/likejun/ProgrammingBasics/build/ch-6 && /usr/local/Cellar/cmake/3.23.2/bin/ccmake -S/Users/likejun/ProgrammingBasics -B/Users/likejun/ProgrammingBasics/build
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build ch-6/edit_cache: phony ch-6/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ch-6/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/likejun/ProgrammingBasics/build/ch-6 && /usr/local/Cellar/cmake/3.23.2/bin/cmake --regenerate-during-build -S/Users/likejun/ProgrammingBasics -B/Users/likejun/ProgrammingBasics/build
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ch-6/rebuild_cache: phony ch-6/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/likejun/ProgrammingBasics/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sort
+
+
+#############################################
+# Order-only phony target for sort
+
+build cmake_object_order_depends_target_sort: phony || ch3-oop/CMakeFiles/sort.dir
+
+build ch3-oop/CMakeFiles/sort.dir/main.cpp.o: CXX_COMPILER__sort_Debug /Users/likejun/ProgrammingBasics/ch3-oop/main.cpp || cmake_object_order_depends_target_sort
+  DEP_FILE = ch3-oop/CMakeFiles/sort.dir/main.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch3-oop/CMakeFiles/sort.dir
+  OBJECT_FILE_DIR = ch3-oop/CMakeFiles/sort.dir
+
+build ch3-oop/CMakeFiles/sort.dir/sort.cpp.o: CXX_COMPILER__sort_Debug /Users/likejun/ProgrammingBasics/ch3-oop/sort.cpp || cmake_object_order_depends_target_sort
+  DEP_FILE = ch3-oop/CMakeFiles/sort.dir/sort.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch3-oop/CMakeFiles/sort.dir
+  OBJECT_FILE_DIR = ch3-oop/CMakeFiles/sort.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sort
+
+
+#############################################
+# Link the executable ch3-oop/sort
+
+build ch3-oop/sort: CXX_EXECUTABLE_LINKER__sort_Debug ch3-oop/CMakeFiles/sort.dir/main.cpp.o ch3-oop/CMakeFiles/sort.dir/sort.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch3-oop/CMakeFiles/sort.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch3-oop/sort
+  TARGET_PDB = sort.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target score
+
+
+#############################################
+# Order-only phony target for score
+
+build cmake_object_order_depends_target_score: phony || ch3-oop/CMakeFiles/score.dir
+
+build ch3-oop/CMakeFiles/score.dir/main2.cpp.o: CXX_COMPILER__score_Debug /Users/likejun/ProgrammingBasics/ch3-oop/main2.cpp || cmake_object_order_depends_target_score
+  DEP_FILE = ch3-oop/CMakeFiles/score.dir/main2.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch3-oop/CMakeFiles/score.dir
+  OBJECT_FILE_DIR = ch3-oop/CMakeFiles/score.dir
+
+build ch3-oop/CMakeFiles/score.dir/score.cpp.o: CXX_COMPILER__score_Debug /Users/likejun/ProgrammingBasics/ch3-oop/score.cpp || cmake_object_order_depends_target_score
+  DEP_FILE = ch3-oop/CMakeFiles/score.dir/score.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch3-oop/CMakeFiles/score.dir
+  OBJECT_FILE_DIR = ch3-oop/CMakeFiles/score.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target score
+
+
+#############################################
+# Link the executable ch3-oop/score
+
+build ch3-oop/score: CXX_EXECUTABLE_LINKER__score_Debug ch3-oop/CMakeFiles/score.dir/main2.cpp.o ch3-oop/CMakeFiles/score.dir/score.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch3-oop/CMakeFiles/score.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch3-oop/score
+  TARGET_PDB = score.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build ch3-oop/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/likejun/ProgrammingBasics/build/ch3-oop && /usr/local/Cellar/cmake/3.23.2/bin/ccmake -S/Users/likejun/ProgrammingBasics -B/Users/likejun/ProgrammingBasics/build
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build ch3-oop/edit_cache: phony ch3-oop/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ch3-oop/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/likejun/ProgrammingBasics/build/ch3-oop && /usr/local/Cellar/cmake/3.23.2/bin/cmake --regenerate-during-build -S/Users/likejun/ProgrammingBasics -B/Users/likejun/ProgrammingBasics/build
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ch3-oop/rebuild_cache: phony ch3-oop/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/likejun/ProgrammingBasics/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target demo
+
+
+#############################################
+# Order-only phony target for demo
+
+build cmake_object_order_depends_target_demo: phony || ch4-oop/CMakeFiles/demo.dir
+
+build ch4-oop/CMakeFiles/demo.dir/main.cpp.o: CXX_COMPILER__demo_Debug /Users/likejun/ProgrammingBasics/ch4-oop/main.cpp || cmake_object_order_depends_target_demo
+  DEP_FILE = ch4-oop/CMakeFiles/demo.dir/main.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch4-oop/CMakeFiles/demo.dir
+  OBJECT_FILE_DIR = ch4-oop/CMakeFiles/demo.dir
+
+build ch4-oop/CMakeFiles/demo.dir/Log.cpp.o: CXX_COMPILER__demo_Debug /Users/likejun/ProgrammingBasics/ch4-oop/Log.cpp || cmake_object_order_depends_target_demo
+  DEP_FILE = ch4-oop/CMakeFiles/demo.dir/Log.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch4-oop/CMakeFiles/demo.dir
+  OBJECT_FILE_DIR = ch4-oop/CMakeFiles/demo.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target demo
+
+
+#############################################
+# Link the executable ch4-oop/demo
+
+build ch4-oop/demo: CXX_EXECUTABLE_LINKER__demo_Debug ch4-oop/CMakeFiles/demo.dir/main.cpp.o ch4-oop/CMakeFiles/demo.dir/Log.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch4-oop/CMakeFiles/demo.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch4-oop/demo
+  TARGET_PDB = demo.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build ch4-oop/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/likejun/ProgrammingBasics/build/ch4-oop && /usr/local/Cellar/cmake/3.23.2/bin/ccmake -S/Users/likejun/ProgrammingBasics -B/Users/likejun/ProgrammingBasics/build
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build ch4-oop/edit_cache: phony ch4-oop/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ch4-oop/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/likejun/ProgrammingBasics/build/ch4-oop && /usr/local/Cellar/cmake/3.23.2/bin/cmake --regenerate-during-build -S/Users/likejun/ProgrammingBasics -B/Users/likejun/ProgrammingBasics/build
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ch4-oop/rebuild_cache: phony ch4-oop/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/likejun/ProgrammingBasics/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target area
+
+
+#############################################
+# Order-only phony target for area
+
+build cmake_object_order_depends_target_area: phony || ch8-oop/CMakeFiles/area.dir
+
+build ch8-oop/CMakeFiles/area.dir/area.cpp.o: CXX_COMPILER__area_Debug /Users/likejun/ProgrammingBasics/ch8-oop/area.cpp || cmake_object_order_depends_target_area
+  DEP_FILE = ch8-oop/CMakeFiles/area.dir/area.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch8-oop/CMakeFiles/area.dir
+  OBJECT_FILE_DIR = ch8-oop/CMakeFiles/area.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target area
+
+
+#############################################
+# Link the executable ch8-oop/area
+
+build ch8-oop/area: CXX_EXECUTABLE_LINKER__area_Debug ch8-oop/CMakeFiles/area.dir/area.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch8-oop/CMakeFiles/area.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch8-oop/area
+  TARGET_PDB = area.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test
+
+
+#############################################
+# Order-only phony target for test
+
+build cmake_object_order_depends_target_test: phony || ch8-oop/CMakeFiles/test.dir
+
+build ch8-oop/CMakeFiles/test.dir/8.6.cpp.o: CXX_COMPILER__test_Debug /Users/likejun/ProgrammingBasics/ch8-oop/8.6.cpp || cmake_object_order_depends_target_test
+  DEP_FILE = ch8-oop/CMakeFiles/test.dir/8.6.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch8-oop/CMakeFiles/test.dir
+  OBJECT_FILE_DIR = ch8-oop/CMakeFiles/test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test
+
+
+#############################################
+# Link the executable ch8-oop/test
+
+build ch8-oop/test: CXX_EXECUTABLE_LINKER__test_Debug ch8-oop/CMakeFiles/test.dir/8.6.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch8-oop/CMakeFiles/test.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch8-oop/test
+  TARGET_PDB = test.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build ch8-oop/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/likejun/ProgrammingBasics/build/ch8-oop && /usr/local/Cellar/cmake/3.23.2/bin/ccmake -S/Users/likejun/ProgrammingBasics -B/Users/likejun/ProgrammingBasics/build
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build ch8-oop/edit_cache: phony ch8-oop/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build ch8-oop/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/likejun/ProgrammingBasics/build/ch8-oop && /usr/local/Cellar/cmake/3.23.2/bin/cmake --regenerate-during-build -S/Users/likejun/ProgrammingBasics -B/Users/likejun/ProgrammingBasics/build
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build ch8-oop/rebuild_cache: phony ch8-oop/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/likejun/ProgrammingBasics/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target flower
+
+
+#############################################
+# Order-only phony target for flower
+
+build cmake_object_order_depends_target_flower: phony || final_exam/CMakeFiles/flower.dir
+
+build final_exam/CMakeFiles/flower.dir/flower.cpp.o: CXX_COMPILER__flower_Debug /Users/likejun/ProgrammingBasics/final_exam/flower.cpp || cmake_object_order_depends_target_flower
+  DEP_FILE = final_exam/CMakeFiles/flower.dir/flower.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = final_exam/CMakeFiles/flower.dir
+  OBJECT_FILE_DIR = final_exam/CMakeFiles/flower.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target flower
+
+
+#############################################
+# Link the executable final_exam/flower
+
+build final_exam/flower: CXX_EXECUTABLE_LINKER__flower_Debug final_exam/CMakeFiles/flower.dir/flower.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = final_exam/CMakeFiles/flower.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = final_exam/flower
+  TARGET_PDB = flower.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target letter
+
+
+#############################################
+# Order-only phony target for letter
+
+build cmake_object_order_depends_target_letter: phony || final_exam/CMakeFiles/letter.dir
+
+build final_exam/CMakeFiles/letter.dir/letter.cpp.o: CXX_COMPILER__letter_Debug /Users/likejun/ProgrammingBasics/final_exam/letter.cpp || cmake_object_order_depends_target_letter
+  DEP_FILE = final_exam/CMakeFiles/letter.dir/letter.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = final_exam/CMakeFiles/letter.dir
+  OBJECT_FILE_DIR = final_exam/CMakeFiles/letter.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target letter
+
+
+#############################################
+# Link the executable final_exam/letter
+
+build final_exam/letter: CXX_EXECUTABLE_LINKER__letter_Debug final_exam/CMakeFiles/letter.dir/letter.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = final_exam/CMakeFiles/letter.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = final_exam/letter
+  TARGET_PDB = letter.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target prime_interval
+
+
+#############################################
+# Order-only phony target for prime_interval
+
+build cmake_object_order_depends_target_prime_interval: phony || final_exam/CMakeFiles/prime_interval.dir
+
+build final_exam/CMakeFiles/prime_interval.dir/prime.cpp.o: CXX_COMPILER__prime_interval_Debug /Users/likejun/ProgrammingBasics/final_exam/prime.cpp || cmake_object_order_depends_target_prime_interval
+  DEP_FILE = final_exam/CMakeFiles/prime_interval.dir/prime.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = final_exam/CMakeFiles/prime_interval.dir
+  OBJECT_FILE_DIR = final_exam/CMakeFiles/prime_interval.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target prime_interval
+
+
+#############################################
+# Link the executable final_exam/prime_interval
+
+build final_exam/prime_interval: CXX_EXECUTABLE_LINKER__prime_interval_Debug final_exam/CMakeFiles/prime_interval.dir/prime.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = final_exam/CMakeFiles/prime_interval.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = final_exam/prime_interval
+  TARGET_PDB = prime_interval.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target matrix
+
+
+#############################################
+# Order-only phony target for matrix
+
+build cmake_object_order_depends_target_matrix: phony || final_exam/CMakeFiles/matrix.dir
+
+build final_exam/CMakeFiles/matrix.dir/matrix.cpp.o: CXX_COMPILER__matrix_Debug /Users/likejun/ProgrammingBasics/final_exam/matrix.cpp || cmake_object_order_depends_target_matrix
+  DEP_FILE = final_exam/CMakeFiles/matrix.dir/matrix.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = final_exam/CMakeFiles/matrix.dir
+  OBJECT_FILE_DIR = final_exam/CMakeFiles/matrix.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target matrix
+
+
+#############################################
+# Link the executable final_exam/matrix
+
+build final_exam/matrix: CXX_EXECUTABLE_LINKER__matrix_Debug final_exam/CMakeFiles/matrix.dir/matrix.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = final_exam/CMakeFiles/matrix.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = final_exam/matrix
+  TARGET_PDB = matrix.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target dumpling
+
+
+#############################################
+# Order-only phony target for dumpling
+
+build cmake_object_order_depends_target_dumpling: phony || final_exam/CMakeFiles/dumpling.dir
+
+build final_exam/CMakeFiles/dumpling.dir/dumpling.cpp.o: CXX_COMPILER__dumpling_Debug /Users/likejun/ProgrammingBasics/final_exam/dumpling.cpp || cmake_object_order_depends_target_dumpling
+  DEP_FILE = final_exam/CMakeFiles/dumpling.dir/dumpling.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = final_exam/CMakeFiles/dumpling.dir
+  OBJECT_FILE_DIR = final_exam/CMakeFiles/dumpling.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target dumpling
+
+
+#############################################
+# Link the executable final_exam/dumpling
+
+build final_exam/dumpling: CXX_EXECUTABLE_LINKER__dumpling_Debug final_exam/CMakeFiles/dumpling.dir/dumpling.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = final_exam/CMakeFiles/dumpling.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = final_exam/dumpling
+  TARGET_PDB = dumpling.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build final_exam/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/likejun/ProgrammingBasics/build/final_exam && /usr/local/Cellar/cmake/3.23.2/bin/ccmake -S/Users/likejun/ProgrammingBasics -B/Users/likejun/ProgrammingBasics/build
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build final_exam/edit_cache: phony final_exam/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build final_exam/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/likejun/ProgrammingBasics/build/final_exam && /usr/local/Cellar/cmake/3.23.2/bin/cmake --regenerate-during-build -S/Users/likejun/ProgrammingBasics -B/Users/likejun/ProgrammingBasics/build
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build final_exam/rebuild_cache: phony final_exam/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/likejun/ProgrammingBasics/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target range
+
+
+#############################################
+# Order-only phony target for range
+
+build cmake_object_order_depends_target_range: phony || final_dsa/CMakeFiles/range.dir
+
+build final_dsa/CMakeFiles/range.dir/range.cpp.o: CXX_COMPILER__range_Debug /Users/likejun/ProgrammingBasics/final_dsa/range.cpp || cmake_object_order_depends_target_range
+  DEP_FILE = final_dsa/CMakeFiles/range.dir/range.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = final_dsa/CMakeFiles/range.dir
+  OBJECT_FILE_DIR = final_dsa/CMakeFiles/range.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target range
+
+
+#############################################
+# Link the executable final_dsa/range
+
+build final_dsa/range: CXX_EXECUTABLE_LINKER__range_Debug final_dsa/CMakeFiles/range.dir/range.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = final_dsa/CMakeFiles/range.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = final_dsa/range
+  TARGET_PDB = range.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target zuma
+
+
+#############################################
+# Order-only phony target for zuma
+
+build cmake_object_order_depends_target_zuma: phony || final_dsa/CMakeFiles/zuma.dir
+
+build final_dsa/CMakeFiles/zuma.dir/zuma.cpp.o: CXX_COMPILER__zuma_Debug /Users/likejun/ProgrammingBasics/final_dsa/zuma.cpp || cmake_object_order_depends_target_zuma
+  DEP_FILE = final_dsa/CMakeFiles/zuma.dir/zuma.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = final_dsa/CMakeFiles/zuma.dir
+  OBJECT_FILE_DIR = final_dsa/CMakeFiles/zuma.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target zuma
+
+
+#############################################
+# Link the executable final_dsa/zuma
+
+build final_dsa/zuma: CXX_EXECUTABLE_LINKER__zuma_Debug final_dsa/CMakeFiles/zuma.dir/zuma.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = final_dsa/CMakeFiles/zuma.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = final_dsa/zuma
+  TARGET_PDB = zuma.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build final_dsa/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/likejun/ProgrammingBasics/build/final_dsa && /usr/local/Cellar/cmake/3.23.2/bin/ccmake -S/Users/likejun/ProgrammingBasics -B/Users/likejun/ProgrammingBasics/build
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build final_dsa/edit_cache: phony final_dsa/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build final_dsa/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/likejun/ProgrammingBasics/build/final_dsa && /usr/local/Cellar/cmake/3.23.2/bin/cmake --regenerate-during-build -S/Users/likejun/ProgrammingBasics -B/Users/likejun/ProgrammingBasics/build
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build final_dsa/rebuild_cache: phony final_dsa/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+build accelerated_speed: phony ch-2/accelerated_speed
+
+build allocate_books: phony ch-5/allocate_books
+
+build area: phony ch8-oop/area
+
+build binary_search: phony ch-4/binary_search
+
+build buying: phony ch-1/buying
+
+build calc_area: phony ch-2/calc_area
+
+build calc_func: phony ch-5/calc_func
+
+build calc_one: phony ch-1/calc_one
+
+build calc_y: phony ch-1/calc_y
+
+build children: phony ch-4/children
+
+build demo: phony ch4-oop/demo
+
+build digital: phony ch-2/digital
+
+build downstairs: phony ch-6/downstairs
+
+build dumpling: phony final_exam/dumpling
+
+build fact: phony ch-5/fact
+
+build fibo: phony ch-6/fibo
+
+build flower: phony final_exam/flower
+
+build func: phony ch-5/func
+
+build good_man: phony ch-3/good_man
+
+build guess: phony ch-2/guess
+
+build hello_world: phony ch-1/hello_world
+
+build insert_sort: phony ch-4/insert_sort
+
+build joseph: phony ch-4/joseph
+
+build letter: phony final_exam/letter
+
+build matrix: phony final_exam/matrix
+
+build max2: phony ch-4/max2
+
+build monkey: phony ch-6/monkey
+
+build murder: phony ch-3/murder
+
+build murder2: phony ch-3/murder2
+
+build password: phony ch-4/password
+
+build prime: phony ch-4/prime
+
+build prime_factor: phony ch-4/prime_factor
+
+build prime_interval: phony final_exam/prime_interval
+
+build range: phony final_dsa/range
+
+build recur_sorts: phony ch-5/recur_sorts
+
+build score: phony ch3-oop/score
+
+build select_sort: phony ch-4/select_sort
+
+build sort: phony ch3-oop/sort
+
+build suspect: phony ch-3/suspect
+
+build test: phony ch8-oop/test
+
+build triangle: phony ch-3/triangle
+
+build triangle_area: phony ch-2/triangle_area
+
+build year: phony ch-3/year
+
+build zuma: phony final_dsa/zuma
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/likejun/ProgrammingBasics/build
+
+build all: phony ch-1/all ch-2/all ch-3/all ch-4/all ch-5/all ch-6/all ch3-oop/all ch4-oop/all ch8-oop/all final_exam/all final_dsa/all
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/likejun/ProgrammingBasics/build/ch-1
+
+build ch-1/all: phony ch-1/buying ch-1/hello_world ch-1/calc_one ch-1/calc_y
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/likejun/ProgrammingBasics/build/ch-2
+
+build ch-2/all: phony ch-2/digital ch-2/guess ch-2/calc_area ch-2/accelerated_speed ch-2/triangle_area
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/likejun/ProgrammingBasics/build/ch-3
+
+build ch-3/all: phony ch-3/good_man ch-3/suspect ch-3/murder ch-3/murder2 ch-3/triangle ch-3/year
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/likejun/ProgrammingBasics/build/ch-4
+
+build ch-4/all: phony ch-4/prime ch-4/children ch-4/binary_search ch-4/insert_sort ch-4/select_sort ch-4/joseph ch-4/max2 ch-4/prime_factor ch-4/password
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/likejun/ProgrammingBasics/build/ch-5
+
+build ch-5/all: phony ch-5/fact ch-5/recur_sorts ch-5/allocate_books ch-5/calc_func ch-5/func
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/likejun/ProgrammingBasics/build/ch-6
+
+build ch-6/all: phony ch-6/downstairs ch-6/monkey ch-6/fibo
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/likejun/ProgrammingBasics/build/ch3-oop
+
+build ch3-oop/all: phony ch3-oop/sort ch3-oop/score
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/likejun/ProgrammingBasics/build/ch4-oop
+
+build ch4-oop/all: phony ch4-oop/demo
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/likejun/ProgrammingBasics/build/ch8-oop
+
+build ch8-oop/all: phony ch8-oop/area ch8-oop/test
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/likejun/ProgrammingBasics/build/final_dsa
+
+build final_dsa/all: phony final_dsa/range final_dsa/zuma
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/likejun/ProgrammingBasics/build/final_exam
+
+build final_exam/all: phony final_exam/flower final_exam/letter final_exam/prime_interval final_exam/matrix final_exam/dumpling
+
+# =============================================================================
+# Unknown Build Time Dependencies.
+# Tell Ninja that they may appear as side effects of build rules
+# otherwise ordered by order-only dependencies.
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../ch-1/CMakeLists.txt ../ch-2/CMakeLists.txt ../ch-3/CMakeLists.txt ../ch-4/CMakeLists.txt ../ch-5/CMakeLists.txt ../ch-6/CMakeLists.txt ../ch3-oop/CMakeLists.txt ../ch4-oop/CMakeLists.txt ../ch8-oop/CMakeLists.txt ../final_dsa/CMakeLists.txt ../final_exam/CMakeLists.txt /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeCXXInformation.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeGenericSystem.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Compiler/AppleClang-CXX.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Compiler/Clang.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Compiler/GNU.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Apple-Clang.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Darwin-Initialize.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Darwin.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build ../CMakeLists.txt ../ch-1/CMakeLists.txt ../ch-2/CMakeLists.txt ../ch-3/CMakeLists.txt ../ch-4/CMakeLists.txt ../ch-5/CMakeLists.txt ../ch-6/CMakeLists.txt ../ch3-oop/CMakeLists.txt ../ch4-oop/CMakeLists.txt ../ch8-oop/CMakeLists.txt ../final_dsa/CMakeLists.txt ../final_exam/CMakeLists.txt /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeCXXInformation.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeGenericSystem.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Compiler/AppleClang-CXX.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Compiler/Clang.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Compiler/GNU.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Apple-Clang.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Darwin-Initialize.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Darwin.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

@@ -1,0 +1,242 @@
+[
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch-1/CMakeFiles/buying.dir/buying.cpp.o -c /Users/likejun/ProgrammingBasics/ch-1/buying.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch-1/buying.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch-1/CMakeFiles/hello_world.dir/hello_world.cpp.o -c /Users/likejun/ProgrammingBasics/ch-1/hello_world.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch-1/hello_world.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch-1/CMakeFiles/hello_world.dir/hello.cpp.o -c /Users/likejun/ProgrammingBasics/ch-1/hello.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch-1/hello.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch-1/CMakeFiles/calc_one.dir/calc_one.cpp.o -c /Users/likejun/ProgrammingBasics/ch-1/calc_one.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch-1/calc_one.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch-1/CMakeFiles/calc_y.dir/calc_y.cpp.o -c /Users/likejun/ProgrammingBasics/ch-1/calc_y.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch-1/calc_y.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch-2/CMakeFiles/digital.dir/digital.cpp.o -c /Users/likejun/ProgrammingBasics/ch-2/digital.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch-2/digital.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch-2/CMakeFiles/guess.dir/guess.cpp.o -c /Users/likejun/ProgrammingBasics/ch-2/guess.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch-2/guess.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch-2/CMakeFiles/calc_area.dir/calc_area.cpp.o -c /Users/likejun/ProgrammingBasics/ch-2/calc_area.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch-2/calc_area.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch-2/CMakeFiles/accelerated_speed.dir/accelerated_speed.cpp.o -c /Users/likejun/ProgrammingBasics/ch-2/accelerated_speed.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch-2/accelerated_speed.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch-2/CMakeFiles/triangle_area.dir/triangle_area.cpp.o -c /Users/likejun/ProgrammingBasics/ch-2/triangle_area.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch-2/triangle_area.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch-3/CMakeFiles/good_man.dir/good_man.cpp.o -c /Users/likejun/ProgrammingBasics/ch-3/good_man.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch-3/good_man.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch-3/CMakeFiles/suspect.dir/suspect.cpp.o -c /Users/likejun/ProgrammingBasics/ch-3/suspect.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch-3/suspect.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch-3/CMakeFiles/murder.dir/murder.cpp.o -c /Users/likejun/ProgrammingBasics/ch-3/murder.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch-3/murder.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch-3/CMakeFiles/murder2.dir/murder2.cpp.o -c /Users/likejun/ProgrammingBasics/ch-3/murder2.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch-3/murder2.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch-3/CMakeFiles/triangle.dir/triangle.cpp.o -c /Users/likejun/ProgrammingBasics/ch-3/triangle.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch-3/triangle.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch-3/CMakeFiles/year.dir/year.cpp.o -c /Users/likejun/ProgrammingBasics/ch-3/year.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch-3/year.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch-4/CMakeFiles/prime.dir/prime.cpp.o -c /Users/likejun/ProgrammingBasics/ch-4/prime.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch-4/prime.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch-4/CMakeFiles/children.dir/children.cpp.o -c /Users/likejun/ProgrammingBasics/ch-4/children.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch-4/children.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch-4/CMakeFiles/binary_search.dir/binary_search.cpp.o -c /Users/likejun/ProgrammingBasics/ch-4/binary_search.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch-4/binary_search.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch-4/CMakeFiles/insert_sort.dir/insert_sort.cpp.o -c /Users/likejun/ProgrammingBasics/ch-4/insert_sort.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch-4/insert_sort.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch-4/CMakeFiles/select_sort.dir/select_sort.cpp.o -c /Users/likejun/ProgrammingBasics/ch-4/select_sort.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch-4/select_sort.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch-4/CMakeFiles/joseph.dir/joseph.cpp.o -c /Users/likejun/ProgrammingBasics/ch-4/joseph.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch-4/joseph.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch-4/CMakeFiles/max2.dir/max2.cpp.o -c /Users/likejun/ProgrammingBasics/ch-4/max2.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch-4/max2.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch-4/CMakeFiles/prime_factor.dir/prime_factor.cpp.o -c /Users/likejun/ProgrammingBasics/ch-4/prime_factor.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch-4/prime_factor.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch-4/CMakeFiles/password.dir/password.cpp.o -c /Users/likejun/ProgrammingBasics/ch-4/password.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch-4/password.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch-5/CMakeFiles/fact.dir/fact.cpp.o -c /Users/likejun/ProgrammingBasics/ch-5/fact.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch-5/fact.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch-5/CMakeFiles/recur_sorts.dir/recur_sorts.cpp.o -c /Users/likejun/ProgrammingBasics/ch-5/recur_sorts.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch-5/recur_sorts.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch-5/CMakeFiles/allocate_books.dir/allocate_books.cpp.o -c /Users/likejun/ProgrammingBasics/ch-5/allocate_books.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch-5/allocate_books.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch-5/CMakeFiles/calc_func.dir/calc_func.cpp.o -c /Users/likejun/ProgrammingBasics/ch-5/calc_func.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch-5/calc_func.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch-5/CMakeFiles/func.dir/func.cpp.o -c /Users/likejun/ProgrammingBasics/ch-5/func.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch-5/func.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch-6/CMakeFiles/downstairs.dir/downstairs.cpp.o -c /Users/likejun/ProgrammingBasics/ch-6/downstairs.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch-6/downstairs.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch-6/CMakeFiles/monkey.dir/monkey.cpp.o -c /Users/likejun/ProgrammingBasics/ch-6/monkey.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch-6/monkey.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch-6/CMakeFiles/fibo.dir/fibo.cpp.o -c /Users/likejun/ProgrammingBasics/ch-6/fibo.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch-6/fibo.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch3-oop/CMakeFiles/sort.dir/main.cpp.o -c /Users/likejun/ProgrammingBasics/ch3-oop/main.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch3-oop/main.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch3-oop/CMakeFiles/sort.dir/sort.cpp.o -c /Users/likejun/ProgrammingBasics/ch3-oop/sort.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch3-oop/sort.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch3-oop/CMakeFiles/score.dir/main2.cpp.o -c /Users/likejun/ProgrammingBasics/ch3-oop/main2.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch3-oop/main2.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch3-oop/CMakeFiles/score.dir/score.cpp.o -c /Users/likejun/ProgrammingBasics/ch3-oop/score.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch3-oop/score.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch4-oop/CMakeFiles/demo.dir/main.cpp.o -c /Users/likejun/ProgrammingBasics/ch4-oop/main.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch4-oop/main.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch4-oop/CMakeFiles/demo.dir/Log.cpp.o -c /Users/likejun/ProgrammingBasics/ch4-oop/Log.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch4-oop/Log.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch8-oop/CMakeFiles/area.dir/area.cpp.o -c /Users/likejun/ProgrammingBasics/ch8-oop/area.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch8-oop/area.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch8-oop/CMakeFiles/test.dir/8.6.cpp.o -c /Users/likejun/ProgrammingBasics/ch8-oop/8.6.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch8-oop/8.6.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o final_exam/CMakeFiles/flower.dir/flower.cpp.o -c /Users/likejun/ProgrammingBasics/final_exam/flower.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/final_exam/flower.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o final_exam/CMakeFiles/letter.dir/letter.cpp.o -c /Users/likejun/ProgrammingBasics/final_exam/letter.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/final_exam/letter.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o final_exam/CMakeFiles/prime_interval.dir/prime.cpp.o -c /Users/likejun/ProgrammingBasics/final_exam/prime.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/final_exam/prime.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o final_exam/CMakeFiles/matrix.dir/matrix.cpp.o -c /Users/likejun/ProgrammingBasics/final_exam/matrix.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/final_exam/matrix.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o final_exam/CMakeFiles/dumpling.dir/dumpling.cpp.o -c /Users/likejun/ProgrammingBasics/final_exam/dumpling.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/final_exam/dumpling.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o final_dsa/CMakeFiles/range.dir/range.cpp.o -c /Users/likejun/ProgrammingBasics/final_dsa/range.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/final_dsa/range.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o final_dsa/CMakeFiles/zuma.dir/zuma.cpp.o -c /Users/likejun/ProgrammingBasics/final_dsa/zuma.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/final_dsa/zuma.cpp"
+}
+]

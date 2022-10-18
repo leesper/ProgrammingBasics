@@ -1,6 +1,3 @@
-//
-// Created by 李科君 on 2022/7/23.
-//
 #include <iostream>
 #include <cstdio>
 #include <cstdlib>
