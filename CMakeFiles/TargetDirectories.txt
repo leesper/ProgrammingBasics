@@ -1,3 +1,5 @@
 /Users/likejun/ProgrammingBasics/CMakeFiles/simple.dir
+/Users/likejun/ProgrammingBasics/CMakeFiles/binary.dir
+/Users/likejun/ProgrammingBasics/CMakeFiles/diamond.dir
 /Users/likejun/ProgrammingBasics/CMakeFiles/edit_cache.dir
 /Users/likejun/ProgrammingBasics/CMakeFiles/rebuild_cache.dir

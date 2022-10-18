@@ -243,5 +243,15 @@
   "directory": "/Users/likejun/ProgrammingBasics/build",
   "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o cpp-ch2/CMakeFiles/simple.dir/simple.cpp.o -c /Users/likejun/ProgrammingBasics/cpp-ch2/simple.cpp",
   "file": "/Users/likejun/ProgrammingBasics/cpp-ch2/simple.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o cpp-ch2/CMakeFiles/binary.dir/binary.cpp.o -c /Users/likejun/ProgrammingBasics/cpp-ch2/binary.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/cpp-ch2/binary.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o cpp-ch2/CMakeFiles/diamond.dir/diamond.cpp.o -c /Users/likejun/ProgrammingBasics/cpp-ch2/diamond.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/cpp-ch2/diamond.cpp"
 }
 ]

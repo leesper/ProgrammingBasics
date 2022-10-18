@@ -41,10 +41,10 @@
 					"source" : "ch-1",
 					"targetIndexes" : 
 					[
-						4,
-						7,
+						5,
 						8,
-						20
+						9,
+						22
 					]
 				},
 				{
@@ -60,10 +60,10 @@
 					"targetIndexes" : 
 					[
 						0,
-						5,
-						11,
-						19,
-						42
+						6,
+						13,
+						21,
+						44
 					]
 				},
 				{
@@ -78,12 +78,12 @@
 					"source" : "ch-3",
 					"targetIndexes" : 
 					[
-						18,
-						27,
-						28,
-						39,
+						20,
+						29,
+						30,
 						41,
-						43
+						43,
+						45
 					]
 				},
 				{
@@ -98,15 +98,15 @@
 					"source" : "ch-4",
 					"targetIndexes" : 
 					[
-						3,
-						9,
-						21,
-						22,
-						25,
-						29,
-						30,
+						4,
+						10,
+						23,
+						24,
+						27,
 						31,
-						36
+						32,
+						33,
+						38
 					]
 				},
 				{
@@ -122,10 +122,10 @@
 					"targetIndexes" : 
 					[
 						1,
-						6,
-						14,
-						17,
-						34
+						7,
+						16,
+						19,
+						36
 					]
 				},
 				{
@@ -140,9 +140,9 @@
 					"source" : "ch-6",
 					"targetIndexes" : 
 					[
-						12,
-						15,
-						26
+						14,
+						17,
+						28
 					]
 				},
 				{
@@ -157,8 +157,8 @@
 					"source" : "ch3-oop",
 					"targetIndexes" : 
 					[
-						35,
-						38
+						37,
+						40
 					]
 				},
 				{
@@ -173,7 +173,7 @@
 					"source" : "ch4-oop",
 					"targetIndexes" : 
 					[
-						10
+						11
 					]
 				},
 				{
@@ -189,7 +189,7 @@
 					"targetIndexes" : 
 					[
 						2,
-						40
+						42
 					]
 				},
 				{
@@ -204,11 +204,11 @@
 					"source" : "final_exam",
 					"targetIndexes" : 
 					[
-						13,
-						16,
-						23,
-						24,
-						32
+						15,
+						18,
+						25,
+						26,
+						34
 					]
 				},
 				{
@@ -223,8 +223,8 @@
 					"source" : "final_dsa",
 					"targetIndexes" : 
 					[
-						33,
-						44
+						35,
+						46
 					]
 				},
 				{
@@ -239,7 +239,9 @@
 					"source" : "cpp-ch2",
 					"targetIndexes" : 
 					[
-						37
+						3,
+						12,
+						39
 					]
 				}
 			],
@@ -310,7 +312,9 @@
 						41,
 						42,
 						43,
-						44
+						44,
+						45,
+						46
 					]
 				}
 			],
@@ -335,6 +339,13 @@
 					"id" : "area::@b887cb9bc17f215d0fd0",
 					"jsonFile" : "target-area-Debug-656e295225fa39f714e0.json",
 					"name" : "area",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "binary::@c64f51188bd3c5345c57",
+					"jsonFile" : "target-binary-Debug-e65185f2401598171c67.json",
+					"name" : "binary",
 					"projectIndex" : 0
 				},
 				{
@@ -391,6 +402,13 @@
 					"id" : "demo::@8aceda653a899ada683a",
 					"jsonFile" : "target-demo-Debug-adad6d48cc136a04fac1.json",
 					"name" : "demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "diamond::@c64f51188bd3c5345c57",
+					"jsonFile" : "target-diamond-Debug-5583b219f1f8c10b2ce2.json",
+					"name" : "diamond",
 					"projectIndex" : 0
 				},
 				{

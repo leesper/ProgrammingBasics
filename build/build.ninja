@@ -1804,6 +1804,68 @@ build cpp-ch2/simple: CXX_EXECUTABLE_LINKER__simple_Debug cpp-ch2/CMakeFiles/sim
   TARGET_FILE = cpp-ch2/simple
   TARGET_PDB = simple.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target binary
+
+
+#############################################
+# Order-only phony target for binary
+
+build cmake_object_order_depends_target_binary: phony || cpp-ch2/CMakeFiles/binary.dir
+
+build cpp-ch2/CMakeFiles/binary.dir/binary.cpp.o: CXX_COMPILER__binary_Debug /Users/likejun/ProgrammingBasics/cpp-ch2/binary.cpp || cmake_object_order_depends_target_binary
+  DEP_FILE = cpp-ch2/CMakeFiles/binary.dir/binary.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = cpp-ch2/CMakeFiles/binary.dir
+  OBJECT_FILE_DIR = cpp-ch2/CMakeFiles/binary.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target binary
+
+
+#############################################
+# Link the executable cpp-ch2/binary
+
+build cpp-ch2/binary: CXX_EXECUTABLE_LINKER__binary_Debug cpp-ch2/CMakeFiles/binary.dir/binary.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = cpp-ch2/CMakeFiles/binary.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = cpp-ch2/binary
+  TARGET_PDB = binary.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target diamond
+
+
+#############################################
+# Order-only phony target for diamond
+
+build cmake_object_order_depends_target_diamond: phony || cpp-ch2/CMakeFiles/diamond.dir
+
+build cpp-ch2/CMakeFiles/diamond.dir/diamond.cpp.o: CXX_COMPILER__diamond_Debug /Users/likejun/ProgrammingBasics/cpp-ch2/diamond.cpp || cmake_object_order_depends_target_diamond
+  DEP_FILE = cpp-ch2/CMakeFiles/diamond.dir/diamond.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = cpp-ch2/CMakeFiles/diamond.dir
+  OBJECT_FILE_DIR = cpp-ch2/CMakeFiles/diamond.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target diamond
+
+
+#############################################
+# Link the executable cpp-ch2/diamond
+
+build cpp-ch2/diamond: CXX_EXECUTABLE_LINKER__diamond_Debug cpp-ch2/CMakeFiles/diamond.dir/diamond.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = cpp-ch2/CMakeFiles/diamond.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = cpp-ch2/diamond
+  TARGET_PDB = diamond.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1837,6 +1899,8 @@ build allocate_books: phony ch-5/allocate_books
 
 build area: phony ch8-oop/area
 
+build binary: phony cpp-ch2/binary
+
 build binary_search: phony ch-4/binary_search
 
 build buying: phony ch-1/buying
@@ -1852,6 +1916,8 @@ build calc_y: phony ch-1/calc_y
 build children: phony ch-4/children
 
 build demo: phony ch4-oop/demo
+
+build diamond: phony cpp-ch2/diamond
 
 build digital: phony ch-2/digital
 
@@ -1999,7 +2065,7 @@ build ch8-oop/all: phony ch8-oop/area ch8-oop/test
 #############################################
 # Folder: /Users/likejun/ProgrammingBasics/build/cpp-ch2
 
-build cpp-ch2/all: phony cpp-ch2/simple
+build cpp-ch2/all: phony cpp-ch2/simple cpp-ch2/binary cpp-ch2/diamond
 
 # =============================================================================
 

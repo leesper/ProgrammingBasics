@@ -67,5 +67,7 @@
 /Users/likejun/ProgrammingBasics/build/final_dsa/CMakeFiles/edit_cache.dir
 /Users/likejun/ProgrammingBasics/build/final_dsa/CMakeFiles/rebuild_cache.dir
 /Users/likejun/ProgrammingBasics/build/cpp-ch2/CMakeFiles/simple.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch2/CMakeFiles/binary.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch2/CMakeFiles/diamond.dir
 /Users/likejun/ProgrammingBasics/build/cpp-ch2/CMakeFiles/edit_cache.dir
 /Users/likejun/ProgrammingBasics/build/cpp-ch2/CMakeFiles/rebuild_cache.dir

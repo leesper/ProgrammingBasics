@@ -129,6 +129,80 @@ simple/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple.dir/build.make CMakeFiles/simple.dir/build
 .PHONY : simple/fast
 
+#=============================================================================
+# Target rules for targets named binary
+
+# Build rule for target.
+binary: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 binary
+.PHONY : binary
+
+# fast build rule for target.
+binary/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/build
+.PHONY : binary/fast
+
+#=============================================================================
+# Target rules for targets named diamond
+
+# Build rule for target.
+diamond: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 diamond
+.PHONY : diamond
+
+# fast build rule for target.
+diamond/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diamond.dir/build.make CMakeFiles/diamond.dir/build
+.PHONY : diamond/fast
+
+binary.o: binary.cpp.o
+.PHONY : binary.o
+
+# target to build an object file
+binary.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/binary.cpp.o
+.PHONY : binary.cpp.o
+
+binary.i: binary.cpp.i
+.PHONY : binary.i
+
+# target to preprocess a source file
+binary.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/binary.cpp.i
+.PHONY : binary.cpp.i
+
+binary.s: binary.cpp.s
+.PHONY : binary.s
+
+# target to generate assembly for a file
+binary.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/binary.cpp.s
+.PHONY : binary.cpp.s
+
+diamond.o: diamond.cpp.o
+.PHONY : diamond.o
+
+# target to build an object file
+diamond.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diamond.dir/build.make CMakeFiles/diamond.dir/diamond.cpp.o
+.PHONY : diamond.cpp.o
+
+diamond.i: diamond.cpp.i
+.PHONY : diamond.i
+
+# target to preprocess a source file
+diamond.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diamond.dir/build.make CMakeFiles/diamond.dir/diamond.cpp.i
+.PHONY : diamond.cpp.i
+
+diamond.s: diamond.cpp.s
+.PHONY : diamond.s
+
+# target to generate assembly for a file
+diamond.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diamond.dir/build.make CMakeFiles/diamond.dir/diamond.cpp.s
+.PHONY : diamond.cpp.s
+
 simple.o: simple.cpp.o
 .PHONY : simple.o
 
@@ -161,7 +235,15 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... binary"
+	@echo "... diamond"
 	@echo "... simple"
+	@echo "... binary.o"
+	@echo "... binary.i"
+	@echo "... binary.s"
+	@echo "... diamond.o"
+	@echo "... diamond.i"
+	@echo "... diamond.s"
 	@echo "... simple.o"
 	@echo "... simple.i"
 	@echo "... simple.s"
