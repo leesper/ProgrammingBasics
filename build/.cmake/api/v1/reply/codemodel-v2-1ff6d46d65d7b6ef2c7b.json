@@ -18,7 +18,8 @@
 						8,
 						9,
 						10,
-						11
+						11,
+						12
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -62,7 +63,7 @@
 						5,
 						11,
 						19,
-						41
+						42
 					]
 				},
 				{
@@ -80,9 +81,9 @@
 						18,
 						27,
 						28,
-						38,
-						40,
-						42
+						39,
+						41,
+						43
 					]
 				},
 				{
@@ -157,7 +158,7 @@
 					"targetIndexes" : 
 					[
 						35,
-						37
+						38
 					]
 				},
 				{
@@ -188,7 +189,7 @@
 					"targetIndexes" : 
 					[
 						2,
-						39
+						40
 					]
 				},
 				{
@@ -223,7 +224,22 @@
 					"targetIndexes" : 
 					[
 						33,
-						43
+						44
+					]
+				},
+				{
+					"build" : "cpp-ch2",
+					"jsonFile" : "directory-cpp-ch2-Debug-6f665f7bb8b478cd0fe7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "cpp-ch2",
+					"targetIndexes" : 
+					[
+						37
 					]
 				}
 			],
@@ -244,7 +260,8 @@
 						8,
 						9,
 						10,
-						11
+						11,
+						12
 					],
 					"name" : "ProgrammingBasics",
 					"targetIndexes" : 
@@ -292,7 +309,8 @@
 						40,
 						41,
 						42,
-						43
+						43,
+						44
 					]
 				}
 			],
@@ -555,6 +573,13 @@
 					"id" : "select_sort::@6460196554cc580fb108",
 					"jsonFile" : "target-select_sort-Debug-b78f644c71f00479c75f.json",
 					"name" : "select_sort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "simple::@c64f51188bd3c5345c57",
+					"jsonFile" : "target-simple-Debug-a32b7d3d487ec99311c3.json",
+					"name" : "simple",
 					"projectIndex" : 0
 				},
 				{

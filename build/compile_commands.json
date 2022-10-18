@@ -238,5 +238,10 @@
   "directory": "/Users/likejun/ProgrammingBasics/build",
   "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o final_dsa/CMakeFiles/zuma.dir/zuma.cpp.o -c /Users/likejun/ProgrammingBasics/final_dsa/zuma.cpp",
   "file": "/Users/likejun/ProgrammingBasics/final_dsa/zuma.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o cpp-ch2/CMakeFiles/simple.dir/simple.cpp.o -c /Users/likejun/ProgrammingBasics/cpp-ch2/simple.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/cpp-ch2/simple.cpp"
 }
 ]

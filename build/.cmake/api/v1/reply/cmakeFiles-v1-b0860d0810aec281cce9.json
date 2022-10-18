@@ -134,6 +134,9 @@
 		},
 		{
 			"path" : "final_dsa/CMakeLists.txt"
+		},
+		{
+			"path" : "cpp-ch2/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

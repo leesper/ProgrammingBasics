@@ -1,4 +1,4 @@
-# Install script for directory: /Users/likejun/ProgrammingBasics
+# Install script for directory: /Users/likejun/ProgrammingBasics/cpp-ch2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -34,24 +34,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("/Users/likejun/ProgrammingBasics/build/ch-1/cmake_install.cmake")
-  include("/Users/likejun/ProgrammingBasics/build/ch-2/cmake_install.cmake")
-  include("/Users/likejun/ProgrammingBasics/build/ch-3/cmake_install.cmake")
-  include("/Users/likejun/ProgrammingBasics/build/ch-4/cmake_install.cmake")
-  include("/Users/likejun/ProgrammingBasics/build/ch-5/cmake_install.cmake")
-  include("/Users/likejun/ProgrammingBasics/build/ch-6/cmake_install.cmake")
-  include("/Users/likejun/ProgrammingBasics/build/ch3-oop/cmake_install.cmake")
-  include("/Users/likejun/ProgrammingBasics/build/ch4-oop/cmake_install.cmake")
-  include("/Users/likejun/ProgrammingBasics/build/ch8-oop/cmake_install.cmake")
-  include("/Users/likejun/ProgrammingBasics/build/final_exam/cmake_install.cmake")
-  include("/Users/likejun/ProgrammingBasics/build/final_dsa/cmake_install.cmake")
-  include("/Users/likejun/ProgrammingBasics/build/cpp-ch2/cmake_install.cmake")
-
+  set(CMAKE_OBJDUMP "/Library/Developer/CommandLineTools/usr/bin/objdump")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -62,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/likejun/ProgrammingBasics/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/likejun/ProgrammingBasics/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
