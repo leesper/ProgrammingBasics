@@ -253,5 +253,15 @@
   "directory": "/Users/likejun/ProgrammingBasics/build",
   "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o cpp-ch2/CMakeFiles/diamond.dir/diamond.cpp.o -c /Users/likejun/ProgrammingBasics/cpp-ch2/diamond.cpp",
   "file": "/Users/likejun/ProgrammingBasics/cpp-ch2/diamond.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o cpp-ch3/CMakeFiles/rightTriangle.dir/rightTriangle.cpp.o -c /Users/likejun/ProgrammingBasics/cpp-ch3/rightTriangle.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/cpp-ch3/rightTriangle.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o cpp-ch3/CMakeFiles/fibonacci.dir/fibonacci.cpp.o -c /Users/likejun/ProgrammingBasics/cpp-ch3/fibonacci.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/cpp-ch3/fibonacci.cpp"
 }
 ]

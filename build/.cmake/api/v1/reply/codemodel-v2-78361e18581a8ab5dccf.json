@@ -19,7 +19,8 @@
 						9,
 						10,
 						11,
-						12
+						12,
+						13
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -44,7 +45,7 @@
 						5,
 						8,
 						9,
-						22
+						23
 					]
 				},
 				{
@@ -62,8 +63,8 @@
 						0,
 						6,
 						13,
-						21,
-						44
+						22,
+						46
 					]
 				},
 				{
@@ -78,12 +79,12 @@
 					"source" : "ch-3",
 					"targetIndexes" : 
 					[
-						20,
-						29,
+						21,
 						30,
-						41,
+						31,
 						43,
-						45
+						45,
+						47
 					]
 				},
 				{
@@ -100,13 +101,13 @@
 					[
 						4,
 						10,
-						23,
 						24,
-						27,
-						31,
+						25,
+						28,
 						32,
 						33,
-						38
+						34,
+						40
 					]
 				},
 				{
@@ -124,8 +125,8 @@
 						1,
 						7,
 						16,
-						19,
-						36
+						20,
+						37
 					]
 				},
 				{
@@ -142,7 +143,7 @@
 					[
 						14,
 						17,
-						28
+						29
 					]
 				},
 				{
@@ -157,8 +158,8 @@
 					"source" : "ch3-oop",
 					"targetIndexes" : 
 					[
-						37,
-						40
+						39,
+						42
 					]
 				},
 				{
@@ -189,7 +190,7 @@
 					"targetIndexes" : 
 					[
 						2,
-						42
+						44
 					]
 				},
 				{
@@ -205,10 +206,10 @@
 					"targetIndexes" : 
 					[
 						15,
-						18,
-						25,
+						19,
 						26,
-						34
+						27,
+						35
 					]
 				},
 				{
@@ -223,8 +224,8 @@
 					"source" : "final_dsa",
 					"targetIndexes" : 
 					[
-						35,
-						46
+						36,
+						48
 					]
 				},
 				{
@@ -241,7 +242,23 @@
 					[
 						3,
 						12,
-						39
+						41
+					]
+				},
+				{
+					"build" : "cpp-ch3",
+					"jsonFile" : "directory-cpp-ch3-Debug-fcb0c8117d133978cc69.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "cpp-ch3",
+					"targetIndexes" : 
+					[
+						18,
+						38
 					]
 				}
 			],
@@ -263,7 +280,8 @@
 						9,
 						10,
 						11,
-						12
+						12,
+						13
 					],
 					"name" : "ProgrammingBasics",
 					"targetIndexes" : 
@@ -314,7 +332,9 @@
 						43,
 						44,
 						45,
-						46
+						46,
+						47,
+						48
 					]
 				}
 			],
@@ -444,6 +464,13 @@
 					"id" : "fibo::@f4f3b6930f9353a2381f",
 					"jsonFile" : "target-fibo-Debug-08db6d7af8d840809d47.json",
 					"name" : "fibo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "fibonacci::@1482d622799706b95724",
+					"jsonFile" : "target-fibonacci-Debug-5498b22dccef0c8eff19.json",
+					"name" : "fibonacci",
 					"projectIndex" : 0
 				},
 				{
@@ -577,6 +604,13 @@
 					"id" : "recur_sorts::@e56bedff64069841bf73",
 					"jsonFile" : "target-recur_sorts-Debug-77f9f493df7d4ffa6a37.json",
 					"name" : "recur_sorts",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "rightTriangle::@1482d622799706b95724",
+					"jsonFile" : "target-rightTriangle-Debug-42716ae0408b4fe0502c.json",
+					"name" : "rightTriangle",
 					"projectIndex" : 0
 				},
 				{
