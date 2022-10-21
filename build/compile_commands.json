@@ -263,5 +263,20 @@
   "directory": "/Users/likejun/ProgrammingBasics/build",
   "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o cpp-ch3/CMakeFiles/fibonacci.dir/fibonacci.cpp.o -c /Users/likejun/ProgrammingBasics/cpp-ch3/fibonacci.cpp",
   "file": "/Users/likejun/ProgrammingBasics/cpp-ch3/fibonacci.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o cpp-ch4/CMakeFiles/gcd_exer.dir/gcd_exer.cpp.o -c /Users/likejun/ProgrammingBasics/cpp-ch4/gcd_exer.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/cpp-ch4/gcd_exer.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o cpp-ch4/CMakeFiles/cipher.dir/cipher.cpp.o -c /Users/likejun/ProgrammingBasics/cpp-ch4/cipher.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/cpp-ch4/cipher.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o cpp-ch4/CMakeFiles/decipher.dir/decipher.cpp.o -c /Users/likejun/ProgrammingBasics/cpp-ch4/decipher.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/cpp-ch4/decipher.cpp"
 }
 ]

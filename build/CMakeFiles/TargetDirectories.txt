@@ -75,3 +75,8 @@
 /Users/likejun/ProgrammingBasics/build/cpp-ch3/CMakeFiles/fibonacci.dir
 /Users/likejun/ProgrammingBasics/build/cpp-ch3/CMakeFiles/edit_cache.dir
 /Users/likejun/ProgrammingBasics/build/cpp-ch3/CMakeFiles/rebuild_cache.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch4/CMakeFiles/gcd_exer.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch4/CMakeFiles/cipher.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch4/CMakeFiles/decipher.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch4/CMakeFiles/edit_cache.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch4/CMakeFiles/rebuild_cache.dir

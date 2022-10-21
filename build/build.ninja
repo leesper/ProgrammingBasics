@@ -1982,6 +1982,128 @@ build cpp-ch3/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build cpp-ch3/rebuild_cache: phony cpp-ch3/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/likejun/ProgrammingBasics/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target gcd_exer
+
+
+#############################################
+# Order-only phony target for gcd_exer
+
+build cmake_object_order_depends_target_gcd_exer: phony || cpp-ch4/CMakeFiles/gcd_exer.dir
+
+build cpp-ch4/CMakeFiles/gcd_exer.dir/gcd_exer.cpp.o: CXX_COMPILER__gcd_exer_Debug /Users/likejun/ProgrammingBasics/cpp-ch4/gcd_exer.cpp || cmake_object_order_depends_target_gcd_exer
+  DEP_FILE = cpp-ch4/CMakeFiles/gcd_exer.dir/gcd_exer.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = cpp-ch4/CMakeFiles/gcd_exer.dir
+  OBJECT_FILE_DIR = cpp-ch4/CMakeFiles/gcd_exer.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target gcd_exer
+
+
+#############################################
+# Link the executable cpp-ch4/gcd_exer
+
+build cpp-ch4/gcd_exer: CXX_EXECUTABLE_LINKER__gcd_exer_Debug cpp-ch4/CMakeFiles/gcd_exer.dir/gcd_exer.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = cpp-ch4/CMakeFiles/gcd_exer.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = cpp-ch4/gcd_exer
+  TARGET_PDB = gcd_exer.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target cipher
+
+
+#############################################
+# Order-only phony target for cipher
+
+build cmake_object_order_depends_target_cipher: phony || cpp-ch4/CMakeFiles/cipher.dir
+
+build cpp-ch4/CMakeFiles/cipher.dir/cipher.cpp.o: CXX_COMPILER__cipher_Debug /Users/likejun/ProgrammingBasics/cpp-ch4/cipher.cpp || cmake_object_order_depends_target_cipher
+  DEP_FILE = cpp-ch4/CMakeFiles/cipher.dir/cipher.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = cpp-ch4/CMakeFiles/cipher.dir
+  OBJECT_FILE_DIR = cpp-ch4/CMakeFiles/cipher.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target cipher
+
+
+#############################################
+# Link the executable cpp-ch4/cipher
+
+build cpp-ch4/cipher: CXX_EXECUTABLE_LINKER__cipher_Debug cpp-ch4/CMakeFiles/cipher.dir/cipher.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = cpp-ch4/CMakeFiles/cipher.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = cpp-ch4/cipher
+  TARGET_PDB = cipher.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target decipher
+
+
+#############################################
+# Order-only phony target for decipher
+
+build cmake_object_order_depends_target_decipher: phony || cpp-ch4/CMakeFiles/decipher.dir
+
+build cpp-ch4/CMakeFiles/decipher.dir/decipher.cpp.o: CXX_COMPILER__decipher_Debug /Users/likejun/ProgrammingBasics/cpp-ch4/decipher.cpp || cmake_object_order_depends_target_decipher
+  DEP_FILE = cpp-ch4/CMakeFiles/decipher.dir/decipher.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = cpp-ch4/CMakeFiles/decipher.dir
+  OBJECT_FILE_DIR = cpp-ch4/CMakeFiles/decipher.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target decipher
+
+
+#############################################
+# Link the executable cpp-ch4/decipher
+
+build cpp-ch4/decipher: CXX_EXECUTABLE_LINKER__decipher_Debug cpp-ch4/CMakeFiles/decipher.dir/decipher.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = cpp-ch4/CMakeFiles/decipher.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = cpp-ch4/decipher
+  TARGET_PDB = decipher.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build cpp-ch4/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/likejun/ProgrammingBasics/build/cpp-ch4 && /usr/local/Cellar/cmake/3.23.2/bin/ccmake -S/Users/likejun/ProgrammingBasics -B/Users/likejun/ProgrammingBasics/build
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build cpp-ch4/edit_cache: phony cpp-ch4/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build cpp-ch4/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/likejun/ProgrammingBasics/build/cpp-ch4 && /usr/local/Cellar/cmake/3.23.2/bin/cmake --regenerate-during-build -S/Users/likejun/ProgrammingBasics -B/Users/likejun/ProgrammingBasics/build
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build cpp-ch4/rebuild_cache: phony cpp-ch4/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build accelerated_speed: phony ch-2/accelerated_speed
@@ -2006,6 +2128,10 @@ build calc_y: phony ch-1/calc_y
 
 build children: phony ch-4/children
 
+build cipher: phony cpp-ch4/cipher
+
+build decipher: phony cpp-ch4/decipher
+
 build demo: phony ch4-oop/demo
 
 build diamond: phony cpp-ch2/diamond
@@ -2025,6 +2151,8 @@ build fibonacci: phony cpp-ch3/fibonacci
 build flower: phony final_exam/flower
 
 build func: phony ch-5/func
+
+build gcd_exer: phony cpp-ch4/gcd_exer
 
 build good_man: phony ch-3/good_man
 
@@ -2090,7 +2218,7 @@ build zuma: phony final_dsa/zuma
 #############################################
 # Folder: /Users/likejun/ProgrammingBasics/build
 
-build all: phony ch-1/all ch-2/all ch-3/all ch-4/all ch-5/all ch-6/all ch3-oop/all ch4-oop/all ch8-oop/all final_exam/all final_dsa/all cpp-ch2/all cpp-ch3/all
+build all: phony ch-1/all ch-2/all ch-3/all ch-4/all ch-5/all ch-6/all ch3-oop/all ch4-oop/all ch8-oop/all final_exam/all final_dsa/all cpp-ch2/all cpp-ch3/all cpp-ch4/all
 
 # =============================================================================
 
@@ -2172,6 +2300,13 @@ build cpp-ch3/all: phony cpp-ch3/rightTriangle cpp-ch3/fibonacci
 # =============================================================================
 
 #############################################
+# Folder: /Users/likejun/ProgrammingBasics/build/cpp-ch4
+
+build cpp-ch4/all: phony cpp-ch4/gcd_exer cpp-ch4/cipher cpp-ch4/decipher
+
+# =============================================================================
+
+#############################################
 # Folder: /Users/likejun/ProgrammingBasics/build/final_dsa
 
 build final_dsa/all: phony final_dsa/range final_dsa/zuma
@@ -2195,14 +2330,14 @@ build final_exam/all: phony final_exam/flower final_exam/letter final_exam/prime
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../ch-1/CMakeLists.txt ../ch-2/CMakeLists.txt ../ch-3/CMakeLists.txt ../ch-4/CMakeLists.txt ../ch-5/CMakeLists.txt ../ch-6/CMakeLists.txt ../ch3-oop/CMakeLists.txt ../ch4-oop/CMakeLists.txt ../ch8-oop/CMakeLists.txt ../cpp-ch2/CMakeLists.txt ../cpp-ch3/CMakeLists.txt ../final_dsa/CMakeLists.txt ../final_exam/CMakeLists.txt /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeCXXInformation.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeGenericSystem.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Compiler/AppleClang-CXX.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Compiler/Clang.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Compiler/GNU.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Apple-Clang.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Darwin-Initialize.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Darwin.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../ch-1/CMakeLists.txt ../ch-2/CMakeLists.txt ../ch-3/CMakeLists.txt ../ch-4/CMakeLists.txt ../ch-5/CMakeLists.txt ../ch-6/CMakeLists.txt ../ch3-oop/CMakeLists.txt ../ch4-oop/CMakeLists.txt ../ch8-oop/CMakeLists.txt ../cpp-ch2/CMakeLists.txt ../cpp-ch3/CMakeLists.txt ../cpp-ch4/CMakeLists.txt ../final_dsa/CMakeLists.txt ../final_exam/CMakeLists.txt /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeCXXInformation.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeGenericSystem.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Compiler/AppleClang-CXX.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Compiler/Clang.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Compiler/GNU.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Apple-Clang.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Darwin-Initialize.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Darwin.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt ../ch-1/CMakeLists.txt ../ch-2/CMakeLists.txt ../ch-3/CMakeLists.txt ../ch-4/CMakeLists.txt ../ch-5/CMakeLists.txt ../ch-6/CMakeLists.txt ../ch3-oop/CMakeLists.txt ../ch4-oop/CMakeLists.txt ../ch8-oop/CMakeLists.txt ../cpp-ch2/CMakeLists.txt ../cpp-ch3/CMakeLists.txt ../final_dsa/CMakeLists.txt ../final_exam/CMakeLists.txt /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeCXXInformation.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeGenericSystem.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Compiler/AppleClang-CXX.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Compiler/Clang.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Compiler/GNU.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Apple-Clang.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Darwin-Initialize.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Darwin.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+build ../CMakeLists.txt ../ch-1/CMakeLists.txt ../ch-2/CMakeLists.txt ../ch-3/CMakeLists.txt ../ch-4/CMakeLists.txt ../ch-5/CMakeLists.txt ../ch-6/CMakeLists.txt ../ch3-oop/CMakeLists.txt ../ch4-oop/CMakeLists.txt ../ch8-oop/CMakeLists.txt ../cpp-ch2/CMakeLists.txt ../cpp-ch3/CMakeLists.txt ../cpp-ch4/CMakeLists.txt ../final_dsa/CMakeLists.txt ../final_exam/CMakeLists.txt /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeCXXInformation.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeGenericSystem.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Compiler/AppleClang-CXX.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Compiler/Clang.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Compiler/GNU.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Apple-Clang.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Darwin-Initialize.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Darwin.cmake /usr/local/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
 
 
 #############################################
