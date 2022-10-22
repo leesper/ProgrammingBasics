@@ -308,5 +308,25 @@
   "directory": "/Users/likejun/ProgrammingBasics/build",
   "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o cpp-ch6/CMakeFiles/find_solo.dir/find_solo.cpp.o -c /Users/likejun/ProgrammingBasics/cpp-ch6/find_solo.cpp",
   "file": "/Users/likejun/ProgrammingBasics/cpp-ch6/find_solo.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o cpp-ch7/CMakeFiles/account.dir/account.cpp.o -c /Users/likejun/ProgrammingBasics/cpp-ch7/account.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/cpp-ch7/account.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o cpp-ch7/CMakeFiles/shape.dir/shape.cpp.o -c /Users/likejun/ProgrammingBasics/cpp-ch7/shape.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/cpp-ch7/shape.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o cpp-ch7/CMakeFiles/derived.dir/derived.cpp.o -c /Users/likejun/ProgrammingBasics/cpp-ch7/derived.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/cpp-ch7/derived.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o cpp-ch8/CMakeFiles/complex.dir/complex.cpp.o -c /Users/likejun/ProgrammingBasics/cpp-ch8/complex.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/cpp-ch8/complex.cpp"
 }
 ]

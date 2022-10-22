@@ -23,7 +23,9 @@
 						13,
 						14,
 						15,
-						16
+						16,
+						17,
+						18
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -45,10 +47,10 @@
 					"source" : "ch-1",
 					"targetIndexes" : 
 					[
-						5,
-						8,
+						6,
 						9,
-						28
+						10,
+						31
 					]
 				},
 				{
@@ -64,10 +66,10 @@
 					"targetIndexes" : 
 					[
 						0,
-						6,
-						16,
-						27,
-						54
+						7,
+						19,
+						30,
+						58
 					]
 				},
 				{
@@ -82,12 +84,12 @@
 					"source" : "ch-3",
 					"targetIndexes" : 
 					[
-						26,
-						37,
-						38,
-						51,
-						53,
-						55
+						29,
+						40,
+						41,
+						55,
+						57,
+						59
 					]
 				},
 				{
@@ -102,15 +104,15 @@
 					"source" : "ch-4",
 					"targetIndexes" : 
 					[
-						4,
-						10,
-						29,
-						30,
+						5,
+						11,
+						32,
 						33,
-						39,
-						41,
+						36,
 						42,
-						48
+						44,
+						45,
+						51
 					]
 				},
 				{
@@ -125,11 +127,11 @@
 					"source" : "ch-5",
 					"targetIndexes" : 
 					[
-						1,
-						7,
-						19,
-						24,
-						45
+						2,
+						8,
+						22,
+						27,
+						48
 					]
 				},
 				{
@@ -144,9 +146,9 @@
 					"source" : "ch-6",
 					"targetIndexes" : 
 					[
-						17,
 						20,
-						36
+						23,
+						39
 					]
 				},
 				{
@@ -161,8 +163,8 @@
 					"source" : "ch3-oop",
 					"targetIndexes" : 
 					[
-						47,
-						50
+						50,
+						54
 					]
 				},
 				{
@@ -177,7 +179,7 @@
 					"source" : "ch4-oop",
 					"targetIndexes" : 
 					[
-						13
+						15
 					]
 				},
 				{
@@ -192,8 +194,8 @@
 					"source" : "ch8-oop",
 					"targetIndexes" : 
 					[
-						2,
-						52
+						3,
+						56
 					]
 				},
 				{
@@ -208,11 +210,11 @@
 					"source" : "final_exam",
 					"targetIndexes" : 
 					[
-						18,
-						23,
-						31,
-						32,
-						43
+						21,
+						26,
+						34,
+						35,
+						46
 					]
 				},
 				{
@@ -227,8 +229,8 @@
 					"source" : "final_dsa",
 					"targetIndexes" : 
 					[
-						44,
-						57
+						47,
+						61
 					]
 				},
 				{
@@ -243,9 +245,9 @@
 					"source" : "cpp-ch2",
 					"targetIndexes" : 
 					[
-						3,
-						14,
-						49
+						4,
+						17,
+						53
 					]
 				},
 				{
@@ -260,8 +262,8 @@
 					"source" : "cpp-ch3",
 					"targetIndexes" : 
 					[
-						21,
-						46
+						24,
+						49
 					]
 				},
 				{
@@ -276,9 +278,9 @@
 					"source" : "cpp-ch4",
 					"targetIndexes" : 
 					[
-						11,
 						12,
-						25
+						14,
+						28
 					]
 				},
 				{
@@ -293,8 +295,8 @@
 					"source" : "cpp-ch5",
 					"targetIndexes" : 
 					[
-						40,
-						56
+						43,
+						60
 					]
 				},
 				{
@@ -309,10 +311,42 @@
 					"source" : "cpp-ch6",
 					"targetIndexes" : 
 					[
-						15,
-						22,
-						34,
-						35
+						18,
+						25,
+						37,
+						38
+					]
+				},
+				{
+					"build" : "cpp-ch7",
+					"jsonFile" : "directory-cpp-ch7-Debug-9ecdb158510fe8ca8602.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "cpp-ch7",
+					"targetIndexes" : 
+					[
+						1,
+						16,
+						52
+					]
+				},
+				{
+					"build" : "cpp-ch8",
+					"jsonFile" : "directory-cpp-ch8-Debug-54ea6d48048f31c23ad3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "cpp-ch8",
+					"targetIndexes" : 
+					[
+						13
 					]
 				}
 			],
@@ -338,7 +372,9 @@
 						13,
 						14,
 						15,
-						16
+						16,
+						17,
+						18
 					],
 					"name" : "ProgrammingBasics",
 					"targetIndexes" : 
@@ -400,7 +436,11 @@
 						54,
 						55,
 						56,
-						57
+						57,
+						58,
+						59,
+						60,
+						61
 					]
 				}
 			],
@@ -411,6 +451,13 @@
 					"id" : "accelerated_speed::@af6ad402d0585aa63d27",
 					"jsonFile" : "target-accelerated_speed-Debug-26275729cbef1986239f.json",
 					"name" : "accelerated_speed",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "account::@b0d13a1c9ef11a5365fc",
+					"jsonFile" : "target-account-Debug-eecffe3de455fd02bfd3.json",
+					"name" : "account",
 					"projectIndex" : 0
 				},
 				{
@@ -491,6 +538,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 18,
+					"id" : "complex::@3687a66622fae352b93f",
+					"jsonFile" : "target-complex-Debug-60c80e44c2cef499d52a.json",
+					"name" : "complex",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 14,
 					"id" : "decipher::@5f887322a583cc535821",
 					"jsonFile" : "target-decipher-Debug-ef0ab91d3ae4eafb3ee7.json",
@@ -502,6 +556,13 @@
 					"id" : "demo::@8aceda653a899ada683a",
 					"jsonFile" : "target-demo-Debug-adad6d48cc136a04fac1.json",
 					"name" : "demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "derived::@b0d13a1c9ef11a5365fc",
+					"jsonFile" : "target-derived-Debug-28f7534f7a53875093f1.json",
+					"name" : "derived",
 					"projectIndex" : 0
 				},
 				{
@@ -747,6 +808,13 @@
 					"id" : "select_sort::@6460196554cc580fb108",
 					"jsonFile" : "target-select_sort-Debug-b78f644c71f00479c75f.json",
 					"name" : "select_sort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "shape::@b0d13a1c9ef11a5365fc",
+					"jsonFile" : "target-shape-Debug-e7f606550656fc51c384.json",
+					"name" : "shape",
 					"projectIndex" : 0
 				},
 				{

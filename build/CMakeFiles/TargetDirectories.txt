@@ -90,3 +90,11 @@
 /Users/likejun/ProgrammingBasics/build/cpp-ch6/CMakeFiles/find_solo.dir
 /Users/likejun/ProgrammingBasics/build/cpp-ch6/CMakeFiles/edit_cache.dir
 /Users/likejun/ProgrammingBasics/build/cpp-ch6/CMakeFiles/rebuild_cache.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch7/CMakeFiles/account.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch7/CMakeFiles/shape.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch7/CMakeFiles/derived.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch7/CMakeFiles/edit_cache.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch7/CMakeFiles/rebuild_cache.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch8/CMakeFiles/complex.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch8/CMakeFiles/edit_cache.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch8/CMakeFiles/rebuild_cache.dir
