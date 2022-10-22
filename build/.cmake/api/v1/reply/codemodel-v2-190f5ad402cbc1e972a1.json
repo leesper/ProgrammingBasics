@@ -21,7 +21,8 @@
 						11,
 						12,
 						13,
-						14
+						14,
+						15
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -226,7 +227,7 @@
 					"targetIndexes" : 
 					[
 						39,
-						51
+						52
 					]
 				},
 				{
@@ -278,6 +279,21 @@
 						12,
 						23
 					]
+				},
+				{
+					"build" : "cpp-ch5",
+					"jsonFile" : "directory-cpp-ch5-Debug-ec3a67b93ac516210726.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "cpp-ch5",
+					"targetIndexes" : 
+					[
+						51
+					]
 				}
 			],
 			"name" : "Debug",
@@ -300,7 +316,8 @@
 						11,
 						12,
 						13,
-						14
+						14,
+						15
 					],
 					"name" : "ProgrammingBasics",
 					"targetIndexes" : 
@@ -356,7 +373,8 @@
 						48,
 						49,
 						50,
-						51
+						51,
+						52
 					]
 				}
 			],
@@ -717,6 +735,13 @@
 					"id" : "year::@c991fcb49a18b14ea042",
 					"jsonFile" : "target-year-Debug-072114a288e8afcdba27.json",
 					"name" : "year",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "yuebao::@978578b088b60c4479c3",
+					"jsonFile" : "target-yuebao-Debug-c489ab6774493b038963.json",
+					"name" : "yuebao",
 					"projectIndex" : 0
 				},
 				{

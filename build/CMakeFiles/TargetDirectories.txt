@@ -80,3 +80,6 @@
 /Users/likejun/ProgrammingBasics/build/cpp-ch4/CMakeFiles/decipher.dir
 /Users/likejun/ProgrammingBasics/build/cpp-ch4/CMakeFiles/edit_cache.dir
 /Users/likejun/ProgrammingBasics/build/cpp-ch4/CMakeFiles/rebuild_cache.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch5/CMakeFiles/yuebao.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch5/CMakeFiles/edit_cache.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch5/CMakeFiles/rebuild_cache.dir

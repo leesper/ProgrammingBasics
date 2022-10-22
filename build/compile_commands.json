@@ -278,5 +278,10 @@
   "directory": "/Users/likejun/ProgrammingBasics/build",
   "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o cpp-ch4/CMakeFiles/decipher.dir/decipher.cpp.o -c /Users/likejun/ProgrammingBasics/cpp-ch4/decipher.cpp",
   "file": "/Users/likejun/ProgrammingBasics/cpp-ch4/decipher.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o cpp-ch5/CMakeFiles/yuebao.dir/yuebao.cpp.o -c /Users/likejun/ProgrammingBasics/cpp-ch5/yuebao.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/cpp-ch5/yuebao.cpp"
 }
 ]
