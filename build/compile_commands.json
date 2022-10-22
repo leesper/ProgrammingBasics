@@ -328,5 +328,20 @@
   "directory": "/Users/likejun/ProgrammingBasics/build",
   "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o cpp-ch8/CMakeFiles/complex.dir/complex.cpp.o -c /Users/likejun/ProgrammingBasics/cpp-ch8/complex.cpp",
   "file": "/Users/likejun/ProgrammingBasics/cpp-ch8/complex.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o cpp-ch9/CMakeFiles/median.dir/median.cpp.o -c /Users/likejun/ProgrammingBasics/cpp-ch9/median.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/cpp-ch9/median.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o cpp-ch9/CMakeFiles/link_reverse.dir/link_reverse.cpp.o -c /Users/likejun/ProgrammingBasics/cpp-ch9/link_reverse.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/cpp-ch9/link_reverse.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o cpp-ch9/CMakeFiles/stack.dir/stack.cpp.o -c /Users/likejun/ProgrammingBasics/cpp-ch9/stack.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/cpp-ch9/stack.cpp"
 }
 ]

@@ -98,3 +98,8 @@
 /Users/likejun/ProgrammingBasics/build/cpp-ch8/CMakeFiles/complex.dir
 /Users/likejun/ProgrammingBasics/build/cpp-ch8/CMakeFiles/edit_cache.dir
 /Users/likejun/ProgrammingBasics/build/cpp-ch8/CMakeFiles/rebuild_cache.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch9/CMakeFiles/median.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch9/CMakeFiles/link_reverse.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch9/CMakeFiles/stack.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch9/CMakeFiles/edit_cache.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch9/CMakeFiles/rebuild_cache.dir

@@ -25,7 +25,8 @@
 						15,
 						16,
 						17,
-						18
+						18,
+						19
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -69,7 +70,7 @@
 						7,
 						19,
 						30,
-						58
+						61
 					]
 				},
 				{
@@ -85,11 +86,11 @@
 					"targetIndexes" : 
 					[
 						29,
-						40,
-						41,
-						55,
-						57,
-						59
+						42,
+						43,
+						58,
+						60,
+						62
 					]
 				},
 				{
@@ -108,11 +109,11 @@
 						11,
 						32,
 						33,
-						36,
-						42,
+						37,
 						44,
-						45,
-						51
+						46,
+						47,
+						53
 					]
 				},
 				{
@@ -131,7 +132,7 @@
 						8,
 						22,
 						27,
-						48
+						50
 					]
 				},
 				{
@@ -148,7 +149,7 @@
 					[
 						20,
 						23,
-						39
+						41
 					]
 				},
 				{
@@ -163,8 +164,8 @@
 					"source" : "ch3-oop",
 					"targetIndexes" : 
 					[
-						50,
-						54
+						52,
+						56
 					]
 				},
 				{
@@ -195,7 +196,7 @@
 					"targetIndexes" : 
 					[
 						3,
-						56
+						59
 					]
 				},
 				{
@@ -213,8 +214,8 @@
 						21,
 						26,
 						34,
-						35,
-						46
+						36,
+						48
 					]
 				},
 				{
@@ -229,8 +230,8 @@
 					"source" : "final_dsa",
 					"targetIndexes" : 
 					[
-						47,
-						61
+						49,
+						64
 					]
 				},
 				{
@@ -247,7 +248,7 @@
 					[
 						4,
 						17,
-						53
+						55
 					]
 				},
 				{
@@ -263,7 +264,7 @@
 					"targetIndexes" : 
 					[
 						24,
-						49
+						51
 					]
 				},
 				{
@@ -295,8 +296,8 @@
 					"source" : "cpp-ch5",
 					"targetIndexes" : 
 					[
-						43,
-						60
+						45,
+						63
 					]
 				},
 				{
@@ -313,8 +314,8 @@
 					[
 						18,
 						25,
-						37,
-						38
+						38,
+						40
 					]
 				},
 				{
@@ -331,7 +332,7 @@
 					[
 						1,
 						16,
-						52
+						54
 					]
 				},
 				{
@@ -347,6 +348,23 @@
 					"targetIndexes" : 
 					[
 						13
+					]
+				},
+				{
+					"build" : "cpp-ch9",
+					"jsonFile" : "directory-cpp-ch9-Debug-9946e93c2b3e9855a436.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "cpp-ch9",
+					"targetIndexes" : 
+					[
+						35,
+						39,
+						57
 					]
 				}
 			],
@@ -374,7 +392,8 @@
 						15,
 						16,
 						17,
-						18
+						18,
+						19
 					],
 					"name" : "ProgrammingBasics",
 					"targetIndexes" : 
@@ -440,7 +459,10 @@
 						58,
 						59,
 						60,
-						61
+						61,
+						62,
+						63,
+						64
 					]
 				}
 			],
@@ -692,6 +714,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 19,
+					"id" : "link_reverse::@d66ce124c425d8294c6c",
+					"jsonFile" : "target-link_reverse-Debug-1cba63fa6cd6976d717e.json",
+					"name" : "link_reverse",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 10,
 					"id" : "matrix::@5dd1103daed45238b4fb",
 					"jsonFile" : "target-matrix-Debug-53df16c0f55b75bdce6c.json",
@@ -710,6 +739,13 @@
 					"id" : "max_sub::@97f2fcb3bb8aefde9b1f",
 					"jsonFile" : "target-max_sub-Debug-85856b29691ed3a8dbb6.json",
 					"name" : "max_sub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "median::@d66ce124c425d8294c6c",
+					"jsonFile" : "target-median-Debug-4ca9cde650abf3d442e9.json",
+					"name" : "median",
 					"projectIndex" : 0
 				},
 				{
@@ -829,6 +865,13 @@
 					"id" : "sort::@7f8768d5005c7ac3c418",
 					"jsonFile" : "target-sort-Debug-4f979df19747921fca4f.json",
 					"name" : "sort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "stack::@d66ce124c425d8294c6c",
+					"jsonFile" : "target-stack-Debug-376c0c52fba709c8611d.json",
+					"name" : "stack",
 					"projectIndex" : 0
 				},
 				{
