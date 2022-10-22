@@ -81,5 +81,12 @@
 /Users/likejun/ProgrammingBasics/build/cpp-ch4/CMakeFiles/edit_cache.dir
 /Users/likejun/ProgrammingBasics/build/cpp-ch4/CMakeFiles/rebuild_cache.dir
 /Users/likejun/ProgrammingBasics/build/cpp-ch5/CMakeFiles/yuebao.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch5/CMakeFiles/point.dir
 /Users/likejun/ProgrammingBasics/build/cpp-ch5/CMakeFiles/edit_cache.dir
 /Users/likejun/ProgrammingBasics/build/cpp-ch5/CMakeFiles/rebuild_cache.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch6/CMakeFiles/max_sub.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch6/CMakeFiles/diff_array.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch6/CMakeFiles/min_k.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch6/CMakeFiles/find_solo.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch6/CMakeFiles/edit_cache.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch6/CMakeFiles/rebuild_cache.dir

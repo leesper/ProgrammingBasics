@@ -146,6 +146,9 @@
 		},
 		{
 			"path" : "cpp-ch5/CMakeLists.txt"
+		},
+		{
+			"path" : "cpp-ch6/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

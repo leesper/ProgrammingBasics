@@ -283,5 +283,30 @@
   "directory": "/Users/likejun/ProgrammingBasics/build",
   "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o cpp-ch5/CMakeFiles/yuebao.dir/yuebao.cpp.o -c /Users/likejun/ProgrammingBasics/cpp-ch5/yuebao.cpp",
   "file": "/Users/likejun/ProgrammingBasics/cpp-ch5/yuebao.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o cpp-ch5/CMakeFiles/point.dir/point.cpp.o -c /Users/likejun/ProgrammingBasics/cpp-ch5/point.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/cpp-ch5/point.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o cpp-ch6/CMakeFiles/max_sub.dir/max_sub.cpp.o -c /Users/likejun/ProgrammingBasics/cpp-ch6/max_sub.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/cpp-ch6/max_sub.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o cpp-ch6/CMakeFiles/diff_array.dir/diff_array.cpp.o -c /Users/likejun/ProgrammingBasics/cpp-ch6/diff_array.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/cpp-ch6/diff_array.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o cpp-ch6/CMakeFiles/min_k.dir/min_k.cpp.o -c /Users/likejun/ProgrammingBasics/cpp-ch6/min_k.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/cpp-ch6/min_k.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o cpp-ch6/CMakeFiles/find_solo.dir/find_solo.cpp.o -c /Users/likejun/ProgrammingBasics/cpp-ch6/find_solo.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/cpp-ch6/find_solo.cpp"
 }
 ]
