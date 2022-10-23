@@ -343,5 +343,25 @@
   "directory": "/Users/likejun/ProgrammingBasics/build",
   "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o cpp-ch9/CMakeFiles/stack.dir/stack.cpp.o -c /Users/likejun/ProgrammingBasics/cpp-ch9/stack.cpp",
   "file": "/Users/likejun/ProgrammingBasics/cpp-ch9/stack.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o cpp-ch10/CMakeFiles/word_count.dir/word_count.cpp.o -c /Users/likejun/ProgrammingBasics/cpp-ch10/word_count.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/cpp-ch10/word_count.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o cpp-ch11/CMakeFiles/floating.dir/floating.cpp.o -c /Users/likejun/ProgrammingBasics/cpp-ch11/floating.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/cpp-ch11/floating.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o cpp-ch11/CMakeFiles/student.dir/student.cpp.o -c /Users/likejun/ProgrammingBasics/cpp-ch11/student.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/cpp-ch11/student.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o cpp-ch12/CMakeFiles/isoTriangle.dir/isoTriangle.cpp.o -c /Users/likejun/ProgrammingBasics/cpp-ch12/isoTriangle.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/cpp-ch12/isoTriangle.cpp"
 }
 ]

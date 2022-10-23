@@ -158,6 +158,15 @@
 		},
 		{
 			"path" : "cpp-ch9/CMakeLists.txt"
+		},
+		{
+			"path" : "cpp-ch10/CMakeLists.txt"
+		},
+		{
+			"path" : "cpp-ch11/CMakeLists.txt"
+		},
+		{
+			"path" : "cpp-ch12/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

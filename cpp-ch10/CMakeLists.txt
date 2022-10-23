@@ -1,0 +1,1 @@
+add_executable(word_count word_count.cpp)

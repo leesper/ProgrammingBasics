@@ -1,0 +1,3 @@
+/Users/likejun/ProgrammingBasics/cpp-ch12/CMakeFiles/isoTriangle.dir
+/Users/likejun/ProgrammingBasics/cpp-ch12/CMakeFiles/edit_cache.dir
+/Users/likejun/ProgrammingBasics/cpp-ch12/CMakeFiles/rebuild_cache.dir

@@ -58,6 +58,9 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/likejun/ProgrammingBasics/build/cpp-ch7/cmake_install.cmake")
   include("/Users/likejun/ProgrammingBasics/build/cpp-ch8/cmake_install.cmake")
   include("/Users/likejun/ProgrammingBasics/build/cpp-ch9/cmake_install.cmake")
+  include("/Users/likejun/ProgrammingBasics/build/cpp-ch10/cmake_install.cmake")
+  include("/Users/likejun/ProgrammingBasics/build/cpp-ch11/cmake_install.cmake")
+  include("/Users/likejun/ProgrammingBasics/build/cpp-ch12/cmake_install.cmake")
 
 endif()
 

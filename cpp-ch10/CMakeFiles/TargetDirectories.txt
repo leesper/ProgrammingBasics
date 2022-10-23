@@ -1,0 +1,3 @@
+/Users/likejun/ProgrammingBasics/cpp-ch10/CMakeFiles/word_count.dir
+/Users/likejun/ProgrammingBasics/cpp-ch10/CMakeFiles/edit_cache.dir
+/Users/likejun/ProgrammingBasics/cpp-ch10/CMakeFiles/rebuild_cache.dir

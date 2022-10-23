@@ -26,7 +26,10 @@
 						16,
 						17,
 						18,
-						19
+						19,
+						20,
+						21,
+						22
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -51,7 +54,7 @@
 						6,
 						9,
 						10,
-						31
+						32
 					]
 				},
 				{
@@ -69,8 +72,8 @@
 						0,
 						7,
 						19,
-						30,
-						61
+						31,
+						64
 					]
 				},
 				{
@@ -85,12 +88,12 @@
 					"source" : "ch-3",
 					"targetIndexes" : 
 					[
-						29,
-						42,
-						43,
-						58,
-						60,
-						62
+						30,
+						44,
+						45,
+						61,
+						63,
+						66
 					]
 				},
 				{
@@ -107,13 +110,13 @@
 					[
 						5,
 						11,
-						32,
 						33,
-						37,
-						44,
+						35,
+						39,
 						46,
-						47,
-						53
+						48,
+						49,
+						55
 					]
 				},
 				{
@@ -131,8 +134,8 @@
 						2,
 						8,
 						22,
-						27,
-						50
+						28,
+						52
 					]
 				},
 				{
@@ -149,7 +152,7 @@
 					[
 						20,
 						23,
-						41
+						43
 					]
 				},
 				{
@@ -164,8 +167,8 @@
 					"source" : "ch3-oop",
 					"targetIndexes" : 
 					[
-						52,
-						56
+						54,
+						58
 					]
 				},
 				{
@@ -196,7 +199,7 @@
 					"targetIndexes" : 
 					[
 						3,
-						59
+						62
 					]
 				},
 				{
@@ -212,10 +215,10 @@
 					"targetIndexes" : 
 					[
 						21,
-						26,
-						34,
+						27,
 						36,
-						48
+						38,
+						50
 					]
 				},
 				{
@@ -230,8 +233,8 @@
 					"source" : "final_dsa",
 					"targetIndexes" : 
 					[
-						49,
-						64
+						51,
+						68
 					]
 				},
 				{
@@ -248,7 +251,7 @@
 					[
 						4,
 						17,
-						55
+						57
 					]
 				},
 				{
@@ -264,7 +267,7 @@
 					"targetIndexes" : 
 					[
 						24,
-						51
+						53
 					]
 				},
 				{
@@ -281,7 +284,7 @@
 					[
 						12,
 						14,
-						28
+						29
 					]
 				},
 				{
@@ -296,8 +299,8 @@
 					"source" : "cpp-ch5",
 					"targetIndexes" : 
 					[
-						45,
-						63
+						47,
+						67
 					]
 				},
 				{
@@ -314,8 +317,8 @@
 					[
 						18,
 						25,
-						38,
-						40
+						40,
+						42
 					]
 				},
 				{
@@ -332,7 +335,7 @@
 					[
 						1,
 						16,
-						54
+						56
 					]
 				},
 				{
@@ -362,9 +365,55 @@
 					"source" : "cpp-ch9",
 					"targetIndexes" : 
 					[
-						35,
-						39,
-						57
+						37,
+						41,
+						59
+					]
+				},
+				{
+					"build" : "cpp-ch10",
+					"jsonFile" : "directory-cpp-ch10-Debug-489225a09a447799398c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "cpp-ch10",
+					"targetIndexes" : 
+					[
+						65
+					]
+				},
+				{
+					"build" : "cpp-ch11",
+					"jsonFile" : "directory-cpp-ch11-Debug-06869fa8dbe3fad3069b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "cpp-ch11",
+					"targetIndexes" : 
+					[
+						26,
+						60
+					]
+				},
+				{
+					"build" : "cpp-ch12",
+					"jsonFile" : "directory-cpp-ch12-Debug-33014bb61662a09c2eca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "cpp-ch12",
+					"targetIndexes" : 
+					[
+						34
 					]
 				}
 			],
@@ -393,7 +442,10 @@
 						16,
 						17,
 						18,
-						19
+						19,
+						20,
+						21,
+						22
 					],
 					"name" : "ProgrammingBasics",
 					"targetIndexes" : 
@@ -462,7 +514,11 @@
 						61,
 						62,
 						63,
-						64
+						64,
+						65,
+						66,
+						67,
+						68
 					]
 				}
 			],
@@ -651,6 +707,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 21,
+					"id" : "floating::@4e12de65bf906cb5329c",
+					"jsonFile" : "target-floating-Debug-5e90fb5ccbfb5b748308.json",
+					"name" : "floating",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 10,
 					"id" : "flower::@5dd1103daed45238b4fb",
 					"jsonFile" : "target-flower-Debug-15c2d99610521820a204.json",
@@ -697,6 +760,13 @@
 					"id" : "insert_sort::@6460196554cc580fb108",
 					"jsonFile" : "target-insert_sort-Debug-bff1fc9a39a4871b311b.json",
 					"name" : "insert_sort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "isoTriangle::@6cbe569b1b95f4388f8f",
+					"jsonFile" : "target-isoTriangle-Debug-a68046aff38c7ce36ca8.json",
+					"name" : "isoTriangle",
 					"projectIndex" : 0
 				},
 				{
@@ -875,6 +945,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 21,
+					"id" : "student::@4e12de65bf906cb5329c",
+					"jsonFile" : "target-student-Debug-67089c24d7fa0bb8d7a6.json",
+					"name" : "student",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 3,
 					"id" : "suspect::@c991fcb49a18b14ea042",
 					"jsonFile" : "target-suspect-Debug-3772c9634d2efe9a24dc.json",
@@ -900,6 +977,13 @@
 					"id" : "triangle_area::@af6ad402d0585aa63d27",
 					"jsonFile" : "target-triangle_area-Debug-ba61414e2a085a8e620f.json",
 					"name" : "triangle_area",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "word_count::@3fec74a755d75cd41a85",
+					"jsonFile" : "target-word_count-Debug-62041d63411deb29fa8d.json",
+					"name" : "word_count",
 					"projectIndex" : 0
 				},
 				{

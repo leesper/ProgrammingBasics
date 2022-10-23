@@ -103,3 +103,13 @@
 /Users/likejun/ProgrammingBasics/build/cpp-ch9/CMakeFiles/stack.dir
 /Users/likejun/ProgrammingBasics/build/cpp-ch9/CMakeFiles/edit_cache.dir
 /Users/likejun/ProgrammingBasics/build/cpp-ch9/CMakeFiles/rebuild_cache.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch10/CMakeFiles/word_count.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch10/CMakeFiles/edit_cache.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch10/CMakeFiles/rebuild_cache.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch11/CMakeFiles/floating.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch11/CMakeFiles/student.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch11/CMakeFiles/edit_cache.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch11/CMakeFiles/rebuild_cache.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch12/CMakeFiles/isoTriangle.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch12/CMakeFiles/edit_cache.dir
+/Users/likejun/ProgrammingBasics/build/cpp-ch12/CMakeFiles/rebuild_cache.dir
