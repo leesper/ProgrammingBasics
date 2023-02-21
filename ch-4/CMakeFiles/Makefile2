@@ -73,6 +73,8 @@ all: CMakeFiles/max2.dir/all
 all: CMakeFiles/prime_factor.dir/all
 all: CMakeFiles/password.dir/all
 all: CMakeFiles/exercise1.dir/all
+all: CMakeFiles/exercise2.dir/all
+all: CMakeFiles/exercise3.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -90,6 +92,8 @@ clean: CMakeFiles/max2.dir/clean
 clean: CMakeFiles/prime_factor.dir/clean
 clean: CMakeFiles/password.dir/clean
 clean: CMakeFiles/exercise1.dir/clean
+clean: CMakeFiles/exercise2.dir/clean
+clean: CMakeFiles/exercise3.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -99,7 +103,7 @@ clean: CMakeFiles/exercise1.dir/clean
 CMakeFiles/prime.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/prime.dir/build.make CMakeFiles/prime.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/prime.dir/build.make CMakeFiles/prime.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/likejun/ProgrammingBasics/ch-4/CMakeFiles --progress-num=15,16 "Built target prime"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/likejun/ProgrammingBasics/ch-4/CMakeFiles --progress-num=19,20 "Built target prime"
 .PHONY : CMakeFiles/prime.dir/all
 
 # Build rule for subdir invocation for target.
@@ -177,7 +181,7 @@ CMakeFiles/binary_search.dir/clean:
 CMakeFiles/insert_sort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/insert_sort.dir/build.make CMakeFiles/insert_sort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/insert_sort.dir/build.make CMakeFiles/insert_sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/likejun/ProgrammingBasics/ch-4/CMakeFiles --progress-num=7,8 "Built target insert_sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/likejun/ProgrammingBasics/ch-4/CMakeFiles --progress-num=11,12 "Built target insert_sort"
 .PHONY : CMakeFiles/insert_sort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -203,7 +207,7 @@ CMakeFiles/insert_sort.dir/clean:
 CMakeFiles/select_sort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/select_sort.dir/build.make CMakeFiles/select_sort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/select_sort.dir/build.make CMakeFiles/select_sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/likejun/ProgrammingBasics/ch-4/CMakeFiles --progress-num=19,20 "Built target select_sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/likejun/ProgrammingBasics/ch-4/CMakeFiles --progress-num=23,24 "Built target select_sort"
 .PHONY : CMakeFiles/select_sort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -229,7 +233,7 @@ CMakeFiles/select_sort.dir/clean:
 CMakeFiles/joseph.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/joseph.dir/build.make CMakeFiles/joseph.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/joseph.dir/build.make CMakeFiles/joseph.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/likejun/ProgrammingBasics/ch-4/CMakeFiles --progress-num=9,10 "Built target joseph"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/likejun/ProgrammingBasics/ch-4/CMakeFiles --progress-num=13,14 "Built target joseph"
 .PHONY : CMakeFiles/joseph.dir/all
 
 # Build rule for subdir invocation for target.
@@ -255,7 +259,7 @@ CMakeFiles/joseph.dir/clean:
 CMakeFiles/max2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/max2.dir/build.make CMakeFiles/max2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/max2.dir/build.make CMakeFiles/max2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/likejun/ProgrammingBasics/ch-4/CMakeFiles --progress-num=11,12 "Built target max2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/likejun/ProgrammingBasics/ch-4/CMakeFiles --progress-num=15,16 "Built target max2"
 .PHONY : CMakeFiles/max2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -281,7 +285,7 @@ CMakeFiles/max2.dir/clean:
 CMakeFiles/prime_factor.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/prime_factor.dir/build.make CMakeFiles/prime_factor.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/prime_factor.dir/build.make CMakeFiles/prime_factor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/likejun/ProgrammingBasics/ch-4/CMakeFiles --progress-num=17,18 "Built target prime_factor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/likejun/ProgrammingBasics/ch-4/CMakeFiles --progress-num=21,22 "Built target prime_factor"
 .PHONY : CMakeFiles/prime_factor.dir/all
 
 # Build rule for subdir invocation for target.
@@ -307,7 +311,7 @@ CMakeFiles/prime_factor.dir/clean:
 CMakeFiles/password.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/password.dir/build.make CMakeFiles/password.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/password.dir/build.make CMakeFiles/password.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/likejun/ProgrammingBasics/ch-4/CMakeFiles --progress-num=13,14 "Built target password"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/likejun/ProgrammingBasics/ch-4/CMakeFiles --progress-num=17,18 "Built target password"
 .PHONY : CMakeFiles/password.dir/all
 
 # Build rule for subdir invocation for target.
@@ -351,6 +355,58 @@ exercise1: CMakeFiles/exercise1.dir/rule
 CMakeFiles/exercise1.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise1.dir/build.make CMakeFiles/exercise1.dir/clean
 .PHONY : CMakeFiles/exercise1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/exercise2.dir
+
+# All Build rule for target.
+CMakeFiles/exercise2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/likejun/ProgrammingBasics/ch-4/CMakeFiles --progress-num=7,8 "Built target exercise2"
+.PHONY : CMakeFiles/exercise2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/exercise2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/likejun/ProgrammingBasics/ch-4/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/exercise2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/likejun/ProgrammingBasics/ch-4/CMakeFiles 0
+.PHONY : CMakeFiles/exercise2.dir/rule
+
+# Convenience name for target.
+exercise2: CMakeFiles/exercise2.dir/rule
+.PHONY : exercise2
+
+# clean rule for target.
+CMakeFiles/exercise2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/clean
+.PHONY : CMakeFiles/exercise2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/exercise3.dir
+
+# All Build rule for target.
+CMakeFiles/exercise3.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise3.dir/build.make CMakeFiles/exercise3.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise3.dir/build.make CMakeFiles/exercise3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/likejun/ProgrammingBasics/ch-4/CMakeFiles --progress-num=9,10 "Built target exercise3"
+.PHONY : CMakeFiles/exercise3.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/exercise3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/likejun/ProgrammingBasics/ch-4/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/exercise3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/likejun/ProgrammingBasics/ch-4/CMakeFiles 0
+.PHONY : CMakeFiles/exercise3.dir/rule
+
+# Convenience name for target.
+exercise3: CMakeFiles/exercise3.dir/rule
+.PHONY : exercise3
+
+# clean rule for target.
+CMakeFiles/exercise3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise3.dir/build.make CMakeFiles/exercise3.dir/clean
+.PHONY : CMakeFiles/exercise3.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

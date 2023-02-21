@@ -246,6 +246,32 @@ exercise1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise1.dir/build.make CMakeFiles/exercise1.dir/build
 .PHONY : exercise1/fast
 
+#=============================================================================
+# Target rules for targets named exercise2
+
+# Build rule for target.
+exercise2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exercise2
+.PHONY : exercise2
+
+# fast build rule for target.
+exercise2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/build
+.PHONY : exercise2/fast
+
+#=============================================================================
+# Target rules for targets named exercise3
+
+# Build rule for target.
+exercise3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exercise3
+.PHONY : exercise3
+
+# fast build rule for target.
+exercise3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise3.dir/build.make CMakeFiles/exercise3.dir/build
+.PHONY : exercise3/fast
+
 binary_search.o: binary_search.cpp.o
 .PHONY : binary_search.o
 
@@ -317,6 +343,54 @@ exercise1.s: exercise1.cpp.s
 exercise1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise1.dir/build.make CMakeFiles/exercise1.dir/exercise1.cpp.s
 .PHONY : exercise1.cpp.s
+
+exercise2.o: exercise2.cpp.o
+.PHONY : exercise2.o
+
+# target to build an object file
+exercise2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/exercise2.cpp.o
+.PHONY : exercise2.cpp.o
+
+exercise2.i: exercise2.cpp.i
+.PHONY : exercise2.i
+
+# target to preprocess a source file
+exercise2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/exercise2.cpp.i
+.PHONY : exercise2.cpp.i
+
+exercise2.s: exercise2.cpp.s
+.PHONY : exercise2.s
+
+# target to generate assembly for a file
+exercise2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise2.dir/build.make CMakeFiles/exercise2.dir/exercise2.cpp.s
+.PHONY : exercise2.cpp.s
+
+exercise3.o: exercise3.cpp.o
+.PHONY : exercise3.o
+
+# target to build an object file
+exercise3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise3.dir/build.make CMakeFiles/exercise3.dir/exercise3.cpp.o
+.PHONY : exercise3.cpp.o
+
+exercise3.i: exercise3.cpp.i
+.PHONY : exercise3.i
+
+# target to preprocess a source file
+exercise3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise3.dir/build.make CMakeFiles/exercise3.dir/exercise3.cpp.i
+.PHONY : exercise3.cpp.i
+
+exercise3.s: exercise3.cpp.s
+.PHONY : exercise3.s
+
+# target to generate assembly for a file
+exercise3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exercise3.dir/build.make CMakeFiles/exercise3.dir/exercise3.cpp.s
+.PHONY : exercise3.cpp.s
 
 insert_sort.o: insert_sort.cpp.o
 .PHONY : insert_sort.o
@@ -497,6 +571,8 @@ help:
 	@echo "... binary_search"
 	@echo "... children"
 	@echo "... exercise1"
+	@echo "... exercise2"
+	@echo "... exercise3"
 	@echo "... insert_sort"
 	@echo "... joseph"
 	@echo "... max2"
@@ -513,6 +589,12 @@ help:
 	@echo "... exercise1.o"
 	@echo "... exercise1.i"
 	@echo "... exercise1.s"
+	@echo "... exercise2.o"
+	@echo "... exercise2.i"
+	@echo "... exercise2.s"
+	@echo "... exercise3.o"
+	@echo "... exercise3.i"
+	@echo "... exercise3.s"
 	@echo "... insert_sort.o"
 	@echo "... insert_sort.i"
 	@echo "... insert_sort.s"

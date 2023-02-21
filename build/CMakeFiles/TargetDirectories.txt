@@ -31,6 +31,8 @@
 /Users/likejun/ProgrammingBasics/build/ch-4/CMakeFiles/prime_factor.dir
 /Users/likejun/ProgrammingBasics/build/ch-4/CMakeFiles/password.dir
 /Users/likejun/ProgrammingBasics/build/ch-4/CMakeFiles/exercise1.dir
+/Users/likejun/ProgrammingBasics/build/ch-4/CMakeFiles/exercise2.dir
+/Users/likejun/ProgrammingBasics/build/ch-4/CMakeFiles/exercise3.dir
 /Users/likejun/ProgrammingBasics/build/ch-4/CMakeFiles/edit_cache.dir
 /Users/likejun/ProgrammingBasics/build/ch-4/CMakeFiles/rebuild_cache.dir
 /Users/likejun/ProgrammingBasics/build/ch-5/CMakeFiles/fact.dir

@@ -934,6 +934,68 @@ build ch-4/exercise1: CXX_EXECUTABLE_LINKER__exercise1_Debug ch-4/CMakeFiles/exe
   TARGET_FILE = ch-4/exercise1
   TARGET_PDB = exercise1.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise2
+
+
+#############################################
+# Order-only phony target for exercise2
+
+build cmake_object_order_depends_target_exercise2: phony || ch-4/CMakeFiles/exercise2.dir
+
+build ch-4/CMakeFiles/exercise2.dir/exercise2.cpp.o: CXX_COMPILER__exercise2_Debug /Users/likejun/ProgrammingBasics/ch-4/exercise2.cpp || cmake_object_order_depends_target_exercise2
+  DEP_FILE = ch-4/CMakeFiles/exercise2.dir/exercise2.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-4/CMakeFiles/exercise2.dir
+  OBJECT_FILE_DIR = ch-4/CMakeFiles/exercise2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise2
+
+
+#############################################
+# Link the executable ch-4/exercise2
+
+build ch-4/exercise2: CXX_EXECUTABLE_LINKER__exercise2_Debug ch-4/CMakeFiles/exercise2.dir/exercise2.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-4/CMakeFiles/exercise2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch-4/exercise2
+  TARGET_PDB = exercise2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise3
+
+
+#############################################
+# Order-only phony target for exercise3
+
+build cmake_object_order_depends_target_exercise3: phony || ch-4/CMakeFiles/exercise3.dir
+
+build ch-4/CMakeFiles/exercise3.dir/exercise3.cpp.o: CXX_COMPILER__exercise3_Debug /Users/likejun/ProgrammingBasics/ch-4/exercise3.cpp || cmake_object_order_depends_target_exercise3
+  DEP_FILE = ch-4/CMakeFiles/exercise3.dir/exercise3.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-4/CMakeFiles/exercise3.dir
+  OBJECT_FILE_DIR = ch-4/CMakeFiles/exercise3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise3
+
+
+#############################################
+# Link the executable ch-4/exercise3
+
+build ch-4/exercise3: CXX_EXECUTABLE_LINKER__exercise3_Debug ch-4/CMakeFiles/exercise3.dir/exercise3.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-4/CMakeFiles/exercise3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch-4/exercise3
+  TARGET_PDB = exercise3.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -2942,6 +3004,10 @@ build dumpling: phony final_exam/dumpling
 
 build exercise1: phony ch-4/exercise1
 
+build exercise2: phony ch-4/exercise2
+
+build exercise3: phony ch-4/exercise3
+
 build fact: phony ch-5/fact
 
 build fibo: phony ch-6/fibo
@@ -3072,7 +3138,7 @@ build ch-3/all: phony ch-3/good_man ch-3/suspect ch-3/murder ch-3/murder2 ch-3/t
 #############################################
 # Folder: /Users/likejun/ProgrammingBasics/build/ch-4
 
-build ch-4/all: phony ch-4/prime ch-4/children ch-4/binary_search ch-4/insert_sort ch-4/select_sort ch-4/joseph ch-4/max2 ch-4/prime_factor ch-4/password ch-4/exercise1
+build ch-4/all: phony ch-4/prime ch-4/children ch-4/binary_search ch-4/insert_sort ch-4/select_sort ch-4/joseph ch-4/max2 ch-4/prime_factor ch-4/password ch-4/exercise1 ch-4/exercise2 ch-4/exercise3
 
 # =============================================================================
 

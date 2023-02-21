@@ -54,7 +54,7 @@
 						6,
 						9,
 						10,
-						33
+						35
 					]
 				},
 				{
@@ -72,8 +72,8 @@
 						0,
 						7,
 						19,
-						32,
-						65
+						34,
+						67
 					]
 				},
 				{
@@ -88,12 +88,12 @@
 					"source" : "ch-3",
 					"targetIndexes" : 
 					[
-						31,
-						45,
-						46,
-						62,
+						33,
+						47,
+						48,
 						64,
-						67
+						66,
+						69
 					]
 				},
 				{
@@ -111,13 +111,15 @@
 						5,
 						11,
 						22,
-						34,
+						23,
+						24,
 						36,
-						40,
-						47,
+						38,
+						42,
 						49,
-						50,
-						56
+						51,
+						52,
+						58
 					]
 				},
 				{
@@ -134,9 +136,9 @@
 					[
 						2,
 						8,
-						23,
-						29,
-						53
+						25,
+						31,
+						55
 					]
 				},
 				{
@@ -152,8 +154,8 @@
 					"targetIndexes" : 
 					[
 						20,
-						24,
-						44
+						26,
+						46
 					]
 				},
 				{
@@ -168,8 +170,8 @@
 					"source" : "ch3-oop",
 					"targetIndexes" : 
 					[
-						55,
-						59
+						57,
+						61
 					]
 				},
 				{
@@ -200,7 +202,7 @@
 					"targetIndexes" : 
 					[
 						3,
-						63
+						65
 					]
 				},
 				{
@@ -216,10 +218,10 @@
 					"targetIndexes" : 
 					[
 						21,
-						28,
-						37,
+						30,
 						39,
-						51
+						41,
+						53
 					]
 				},
 				{
@@ -234,8 +236,8 @@
 					"source" : "final_dsa",
 					"targetIndexes" : 
 					[
-						52,
-						69
+						54,
+						71
 					]
 				},
 				{
@@ -252,7 +254,7 @@
 					[
 						4,
 						17,
-						58
+						60
 					]
 				},
 				{
@@ -267,8 +269,8 @@
 					"source" : "cpp-ch3",
 					"targetIndexes" : 
 					[
-						25,
-						54
+						27,
+						56
 					]
 				},
 				{
@@ -285,7 +287,7 @@
 					[
 						12,
 						14,
-						30
+						32
 					]
 				},
 				{
@@ -300,8 +302,8 @@
 					"source" : "cpp-ch5",
 					"targetIndexes" : 
 					[
-						48,
-						68
+						50,
+						70
 					]
 				},
 				{
@@ -317,9 +319,9 @@
 					"targetIndexes" : 
 					[
 						18,
-						26,
-						41,
-						43
+						28,
+						43,
+						45
 					]
 				},
 				{
@@ -336,7 +338,7 @@
 					[
 						1,
 						16,
-						57
+						59
 					]
 				},
 				{
@@ -366,9 +368,9 @@
 					"source" : "cpp-ch9",
 					"targetIndexes" : 
 					[
-						38,
-						42,
-						60
+						40,
+						44,
+						62
 					]
 				},
 				{
@@ -383,7 +385,7 @@
 					"source" : "cpp-ch10",
 					"targetIndexes" : 
 					[
-						66
+						68
 					]
 				},
 				{
@@ -398,8 +400,8 @@
 					"source" : "cpp-ch11",
 					"targetIndexes" : 
 					[
-						27,
-						61
+						29,
+						63
 					]
 				},
 				{
@@ -414,7 +416,7 @@
 					"source" : "cpp-ch12",
 					"targetIndexes" : 
 					[
-						35
+						37
 					]
 				}
 			],
@@ -520,7 +522,9 @@
 						66,
 						67,
 						68,
-						69
+						69,
+						70,
+						71
 					]
 				}
 			],
@@ -685,6 +689,20 @@
 					"id" : "exercise1::@6460196554cc580fb108",
 					"jsonFile" : "target-exercise1-Debug-c35a0c1aeebab0cd995e.json",
 					"name" : "exercise1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "exercise2::@6460196554cc580fb108",
+					"jsonFile" : "target-exercise2-Debug-f6165cffade5cbe6c553.json",
+					"name" : "exercise2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "exercise3::@6460196554cc580fb108",
+					"jsonFile" : "target-exercise3-Debug-85c7ea51195e13de8307.json",
+					"name" : "exercise3",
 					"projectIndex" : 0
 				},
 				{
