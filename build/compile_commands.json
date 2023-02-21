@@ -126,6 +126,11 @@
 },
 {
   "directory": "/Users/likejun/ProgrammingBasics/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch-4/CMakeFiles/exercise1.dir/exercise1.cpp.o -c /Users/likejun/ProgrammingBasics/ch-4/exercise1.cpp",
+  "file": "/Users/likejun/ProgrammingBasics/ch-4/exercise1.cpp"
+},
+{
+  "directory": "/Users/likejun/ProgrammingBasics/build",
   "command": "/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o ch-5/CMakeFiles/fact.dir/fact.cpp.o -c /Users/likejun/ProgrammingBasics/ch-5/fact.cpp",
   "file": "/Users/likejun/ProgrammingBasics/ch-5/fact.cpp"
 },

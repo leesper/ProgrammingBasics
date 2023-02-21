@@ -903,6 +903,37 @@ build ch-4/password: CXX_EXECUTABLE_LINKER__password_Debug ch-4/CMakeFiles/passw
   TARGET_FILE = ch-4/password
   TARGET_PDB = password.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise1
+
+
+#############################################
+# Order-only phony target for exercise1
+
+build cmake_object_order_depends_target_exercise1: phony || ch-4/CMakeFiles/exercise1.dir
+
+build ch-4/CMakeFiles/exercise1.dir/exercise1.cpp.o: CXX_COMPILER__exercise1_Debug /Users/likejun/ProgrammingBasics/ch-4/exercise1.cpp || cmake_object_order_depends_target_exercise1
+  DEP_FILE = ch-4/CMakeFiles/exercise1.dir/exercise1.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-4/CMakeFiles/exercise1.dir
+  OBJECT_FILE_DIR = ch-4/CMakeFiles/exercise1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise1
+
+
+#############################################
+# Link the executable ch-4/exercise1
+
+build ch-4/exercise1: CXX_EXECUTABLE_LINKER__exercise1_Debug ch-4/CMakeFiles/exercise1.dir/exercise1.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = ch-4/CMakeFiles/exercise1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ch-4/exercise1
+  TARGET_PDB = exercise1.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -2909,6 +2940,8 @@ build downstairs: phony ch-6/downstairs
 
 build dumpling: phony final_exam/dumpling
 
+build exercise1: phony ch-4/exercise1
+
 build fact: phony ch-5/fact
 
 build fibo: phony ch-6/fibo
@@ -3039,7 +3072,7 @@ build ch-3/all: phony ch-3/good_man ch-3/suspect ch-3/murder ch-3/murder2 ch-3/t
 #############################################
 # Folder: /Users/likejun/ProgrammingBasics/build/ch-4
 
-build ch-4/all: phony ch-4/prime ch-4/children ch-4/binary_search ch-4/insert_sort ch-4/select_sort ch-4/joseph ch-4/max2 ch-4/prime_factor ch-4/password
+build ch-4/all: phony ch-4/prime ch-4/children ch-4/binary_search ch-4/insert_sort ch-4/select_sort ch-4/joseph ch-4/max2 ch-4/prime_factor ch-4/password ch-4/exercise1
 
 # =============================================================================
 

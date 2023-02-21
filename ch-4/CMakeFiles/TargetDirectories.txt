@@ -1,0 +1,12 @@
+/Users/likejun/ProgrammingBasics/ch-4/CMakeFiles/prime.dir
+/Users/likejun/ProgrammingBasics/ch-4/CMakeFiles/children.dir
+/Users/likejun/ProgrammingBasics/ch-4/CMakeFiles/binary_search.dir
+/Users/likejun/ProgrammingBasics/ch-4/CMakeFiles/insert_sort.dir
+/Users/likejun/ProgrammingBasics/ch-4/CMakeFiles/select_sort.dir
+/Users/likejun/ProgrammingBasics/ch-4/CMakeFiles/joseph.dir
+/Users/likejun/ProgrammingBasics/ch-4/CMakeFiles/max2.dir
+/Users/likejun/ProgrammingBasics/ch-4/CMakeFiles/prime_factor.dir
+/Users/likejun/ProgrammingBasics/ch-4/CMakeFiles/password.dir
+/Users/likejun/ProgrammingBasics/ch-4/CMakeFiles/exercise1.dir
+/Users/likejun/ProgrammingBasics/ch-4/CMakeFiles/edit_cache.dir
+/Users/likejun/ProgrammingBasics/ch-4/CMakeFiles/rebuild_cache.dir
